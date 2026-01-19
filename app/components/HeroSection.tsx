@@ -108,7 +108,7 @@ function SlideMedia({ slide }: { slide: Slide }) {
   return <div className="absolute inset-0 bg-black" />;
 }
 
-/** ✅ Background-less BIG arrows */
+/** arrows */
 function ArrowButton({
   direction,
   onClick,
@@ -226,7 +226,7 @@ export default function HeroSlider() {
         >
           {/* ================= BACKGROUND ================= */}
           <div className="absolute inset-0">
-            {/* ✅ If slide has split images -> split layout */}
+            {/* If slide has split images -> split layout */}
             {slide.splitLeftImage && slide.splitRightImage ? (
               <div className="absolute inset-0 grid grid-cols-12">
                 {/* Left 50% */}

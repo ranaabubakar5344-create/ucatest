@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/Navbar"; 
-// import SplashCursor from "@/components/SplashCursor";
+import SplashCursor from "@/app/components/SplashCursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         {children}
         {/* keep it behind everything */}
-        {/* <SplashCursor /> */}
+        <SplashCursor />
       </body>
     </html>
   );
