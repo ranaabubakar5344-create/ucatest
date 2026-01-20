@@ -310,7 +310,7 @@ function DesktopMegaNav({
               <span className="whitespace-nowrap">{item.label}</span>
 
               {/* plus always aligned because no wrap */}
-              <span className="text-white/90 leading-none -translate-y-[1px]">+</span>
+              <span className="text-white leading-none -translate-y-[1px]">+</span>
 
               <span
                 className={`absolute left-0 -bottom-2 h-[3px] w-full bg-yellow-300 transition-opacity ${
@@ -349,7 +349,7 @@ export default function SiteHeader() {
       <div className="bg-[#560045]">
         <div className="mx-auto max-w-7xl px-4">
           <div className="h-11 flex items-center justify-between">
-            <div className="hidden md:flex items-center gap-8 text-white/90 text-sm">
+            <div className="hidden md:flex items-center gap-8 text-white text-sm">
               <Link href="/alumni" className="hover:text-white">
                 Alumni <span className="ml-1">+</span>
               </Link>
@@ -366,56 +366,56 @@ export default function SiteHeader() {
               <Link
                 href="#"
                 aria-label="TikTok"
-                className="hidden sm:inline-flex text-white/90 hover:text-white transition"
+                className="hidden sm:inline-flex text-white hover:text-white transition"
               >
                 <TikTokIcon className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
                 aria-label="Instagram"
-                className="text-white/90 hover:text-white transition"
+                className="text-whitehover:text-white transition"
               >
-                <Instagram className="h-5 w-5" />
+                <Instagram className="h-5 w-5 text-white" />
               </Link>
               <Link
                 href="#"
                 aria-label="LinkedIn"
-                className="text-white/90 hover:text-white transition"
+                className="text-white hover:text-white transition"
               >
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
                 aria-label="Telegram"
-                className="hidden md:inline-flex text-white/90 hover:text-white transition"
+                className="hidden md:inline-flex text-white hover:text-white transition"
               >
                 <Send className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
                 aria-label="Facebook"
-                className=" md:inline-flex text-white/90 hover:text-white transition"
+                className=" md:inline-flex text-white hover:text-white transition"
               >
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
                 aria-label="YouTube"
-                className="hidden md:inline-flex text-white/90 hover:text-white transition"
+                className="hidden md:inline-flex text-white hover:text-white transition"
               >
                 <Youtube className="h-5 w-5" />
               </Link>
               <Link
                 href="#"
                 aria-label="WeChat"
-                className="hidden lg:inline-flex text-white/90 hover:text-white transition"
+                className="hidden lg:inline-flex text-white hover:text-white transition"
               >
                 <WeChatIcon className="h-5 w-5" />
               </Link>
 
               <button
                 aria-label="Search"
-                className="ml-1 text-white/90 hover:text-white transition"
+                className="ml-1 text-white hover:text-white transition"
               >
                 <Search className="h-5 w-5" />
               </button>

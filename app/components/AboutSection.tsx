@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles, Palette, Camera,UserCheck} from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-rose-100">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           {/*  IMAGE */}
