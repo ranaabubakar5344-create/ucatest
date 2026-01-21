@@ -177,7 +177,7 @@ A creative learning ecosystem that emphasizes building your portfolio and achiev
         </div>
 
         {/* Newsletter Section */}
-        <div className="py-10">
+        {/* <div className="py-10">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-3 bg-gradient-to-r from-white to-yellow-100 bg-clip-text text-transparent">
               Stay Updated with Creative Insights
@@ -206,7 +206,7 @@ A creative learning ecosystem that emphasizes building your portfolio and achiev
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Section */}
         <div className="pt-8 border-t border-white/10">

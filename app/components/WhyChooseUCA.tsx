@@ -35,7 +35,7 @@ export default function WhyChooseUCA() {
 
             <h2 className="mt-5 text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
               Creative education that feels{" "}
-              <span className="text-yellow-300">premium</span> — and performs.
+              <span className="text-yellow-300">premium</span> and performs.
             </h2>
 
             <p className="mt-4 text-white/85 text-base md:text-lg leading-relaxed">

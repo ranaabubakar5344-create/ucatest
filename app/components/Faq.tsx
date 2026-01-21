@@ -19,7 +19,7 @@ const DEFAULT_FAQS: FAQ[] = [
     tag: "Admissions",
     popular: true,
     q: "How do I apply to UCA programmes?",
-    a: "Apply online in minutes. After submission, our admissions team will guide you through requirements, documents, and your next steps.",
+    a: "Call us or message us,  our admissions team will guide you through requirements, documents, and your next steps.",
   },
   {
     tag: "Programmes",
