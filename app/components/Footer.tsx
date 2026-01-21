@@ -220,26 +220,35 @@ A creative learning ecosystem that emphasizes building your portfolio and achiev
               </p>
             </div>
             
-            <div className="flex items-center gap-6">
-              <Link 
-                href="#" 
-                className="text-white hover:text-white transition-colors text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-yellow-400 hover:after:w-full after:transition-all"
-              >
-                Privacy Policy
-              </Link>
-              <Link 
-                href="#" 
-                className="text-white hover:text-white transition-colors text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-yellow-400 hover:after:w-full after:transition-all"
-              >
-                Terms of Service
-              </Link>
-              <Link 
-                href="#" 
-                className="text-white hover:text-white transition-colors text-sm font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-yellow-400 hover:after:w-full after:transition-all"
-              >
-                Cookie Policy
-              </Link>
-            </div>
+          <div className="flex items-center gap-6">
+  <Link
+    href="#"
+    className="text-white transition-colors text-xs font-medium relative
+               after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px]
+               after:bg-yellow-400 hover:after:w-full after:transition-all"
+  >
+    Privacy Policy
+  </Link>
+
+  <Link
+    href="#"
+    className="text-white transition-colors text-xs font-medium relative
+               after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px]
+               after:bg-yellow-400 hover:after:w-full after:transition-all"
+  >
+    Terms of Service
+  </Link>
+
+  <Link
+    href="#"
+    className="text-white transition-colors text-xs font-medium relative
+               after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px]
+               after:bg-yellow-400 hover:after:w-full after:transition-all"
+  >
+    Cookie Policy
+  </Link>
+</div>
+
           </div>
         </div>
       </div>
