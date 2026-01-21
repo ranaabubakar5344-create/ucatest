@@ -25,7 +25,7 @@ const studios: Studio[] = [
     title: "Creative Studios",
     desc: "Design thinking, prototyping, and portfolio creation — studio-first learning.",
     href: "/facilities/creative-studios",
-    image: "/studios/studio-1.jpg",
+    image: "/1.jpeg",
     Icon: Palette,
     accent: "pink",
   },
@@ -33,7 +33,7 @@ const studios: Studio[] = [
     title: "Media & Production Labs",
     desc: "Capture, edit, and produce — cinematic storytelling and digital media mastery.",
     href: "/facilities/media-labs",
-    image: "/studios/studio-2.jpg",
+    image: "/2.jpeg",
     Icon: Camera,
     accent: "purple",
   },
@@ -41,7 +41,7 @@ const studios: Studio[] = [
     title: "3D & Innovation Lab",
     desc: "3D modelling, fabrication, and future-ready creative technologies.",
     href: "/facilities/3d-lab",
-    image: "/studios/studio-3.jpg",
+    image: "/3.jpeg",
     Icon: Cuboid,
     accent: "yellow",
   },
@@ -49,7 +49,7 @@ const studios: Studio[] = [
     title: "Performance & Sound Spaces",
     desc: "Sound, rhythm, performance — spaces built for expression & collaboration.",
     href: "/facilities/performance",
-    image: "/studios/studio-4.jpg",
+    image: "/4.jpeg",
     Icon: Music,
     accent: "teal",
   },
@@ -87,13 +87,15 @@ function accent(accent: Studio["accent"]) {
 export default function StudiosSection() {
   const reduce = useReducedMotion();
 
-  // ✅ LEFT HERO SLIDER IMAGES (replace with your own)
+  //  LEFT  SLIDEr IMAGE  
   const heroSlides = useMemo<HeroSlide[]>(
     () => [
       { src: "/1.jpeg", alt: "Campus 1" },
       { src: "/2.jpeg", alt: "Campus 2" },
       { src: "/3.jpeg", alt: "Campus 3" },
       { src: "/4.jpeg", alt: "Campus 4" },
+      { src: "/5.jpeg", alt: "Campus 4" },
+
     ],
     []
   );
@@ -101,7 +103,7 @@ export default function StudiosSection() {
   const [heroIndex, setHeroIndex] = useState(0);
   const [heroHover, setHeroHover] = useState(false);
 
-  // ✅ AUTO SLIDE (same design, only image changes)
+  //  AUTO SLIDE 
   useEffect(() => {
     if (reduce) return;
     if (heroHover) return;
@@ -115,7 +117,7 @@ export default function StudiosSection() {
 
   return (
     <section className="relative overflow-hidden bg-[#0b0b12] text-white">
-      {/* ✅ internal animations (no tailwind config needed) */}
+      {/*  internal animation sTART */}
       <style>{`
         @keyframes ucaFloatA { 0%{transform:translate3d(0,0,0)} 50%{transform:translate3d(20px,-14px,0)} 100%{transform:translate3d(0,0,0)} }
         @keyframes ucaFloatB { 0%{transform:translate3d(0,0,0)} 50%{transform:translate3d(-18px,16px,0)} 100%{transform:translate3d(0,0,0)} }
@@ -125,7 +127,7 @@ export default function StudiosSection() {
         }
       `}</style>
 
-      {/* ✅ Single base + premium glows */}
+      {/*  Single base + premium glows */}
       <div className="absolute inset-0 bg-[#0b0b12]" />
 
       <div
@@ -146,7 +148,7 @@ export default function StudiosSection() {
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         {/* Heading + CTA */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
           <div className="max-w-2xl">
@@ -165,7 +167,7 @@ export default function StudiosSection() {
               to help you make standout work, faster.
             </p>
           </div>
-
+{/* 
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
               href="/facilities"
@@ -182,15 +184,16 @@ export default function StudiosSection() {
               Book a Tour
               <ArrowRight className="h-5 w-5" />
             </Link>
-          </div>
+          </div> */}
         </div>
 
-        {/* ✅ Premium grid */}
+        {/*   grid */}
         <div className="mt-12 grid grid-cols-12 gap-6">
-          {/* LEFT HERO (✅ NOW SLIDER) */}
+          {/* LEFT HERO  */}
           <Link
             href="/facilities"
-            className="group relative col-span-12 lg:col-span-7 min-h-[360px] md:min-h-[460px] rounded-[34px] overflow-hidden"
+className="group relative col-span-12 lg:col-span-7 min-h-[300px] md:min-h-[360px] rounded-[34px] overflow-hidden"
+
             onMouseEnter={() => setHeroHover(true)}
             onMouseLeave={() => setHeroHover(false)}
           >
@@ -201,7 +204,7 @@ export default function StudiosSection() {
 
             {/* image layer */}
             <div className="absolute inset-[1px] rounded-[33px] overflow-hidden">
-              {/* ✅ SLIDER IMAGES */}
+              {/*  SLIDER IMAGES */}
               <AnimatePresence mode="wait">
                 <motion.div
                   key={heroIndex}
@@ -241,23 +244,23 @@ export default function StudiosSection() {
 
               {/* content */}
               <div className="absolute bottom-7 left-7 md:bottom-10 md:left-10 right-7">
-                <div className="inline-flex items-center gap-2 rounded-full bg-black/30 ring-1 ring-white/18 px-4 py-2 text-xs font-semibold backdrop-blur">
+                {/* <div className="inline-flex items-center gap-2 rounded-full bg-black/30 ring-1 ring-white/18 px-4 py-2 text-xs font-semibold backdrop-blur">
                   Cinematic Learning Spaces
                   {heroHover ? <span className="text-yellow-300/90">• Paused</span> : null}
-                </div>
+                </div> */}
 
-                <h3 className="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">
-                  Inside Our Campus
-                </h3>
+          <h3 className="mb-4 text-4xl md:text-6xl font-extrabold tracking-tight">
+  Inside Our Campus
+</h3>
 
-                <p className="mt-3 max-w-xl text-white/85 text-base md:text-lg">
-                  Studio-first, portfolio-first — built to elevate your creativity.
-                </p>
+<p className="max-w-xl text-white/85 text-base md:text-lg">
+  Studio-first, portfolio-first — built to elevate your creativity.
+</p>
 
-                <div className="mt-6 inline-flex items-center gap-2 text-white font-semibold">
-                  View Facilities
+                {/* <div className="mt-6 inline-flex items-center gap-2 text-white font-semibold">
+                  View Facilitiesexp
                   <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-                </div>
+                </div> */}
               </div>
             </div>
           </Link>
@@ -267,9 +270,11 @@ export default function StudiosSection() {
             {studios.map((s) => {
               const a = accent(s.accent);
               return (
-                <Link
+                <div
+                
+                  
                   key={s.title}
-                  href={s.href}
+                  
                   className="group relative col-span-12 sm:col-span-6 lg:col-span-12 rounded-[30px] overflow-hidden"
                 >
                   {/* gradient border */}
@@ -277,7 +282,7 @@ export default function StudiosSection() {
                     <div className="relative h-full w-full rounded-[29px] overflow-hidden bg-[#0b0b12]" />
                   </div>
 
-                  <div className="relative h-[220px] lg:h-[190px] rounded-[29px] overflow-hidden m-[1px]">
+<div className="relative h-[200px] lg:h-[170px] rounded-[29px] overflow-hidden m-[1px]">
                     <Image
                       src={s.image}
                       alt={s.title}
@@ -312,11 +317,11 @@ export default function StudiosSection() {
                           <p className="mt-2 text-white/85 text-sm leading-relaxed">{s.desc}</p>
                         </div>
 
-                        <ArrowRight className="h-6 w-6 text-white/90 transition-transform duration-300 group-hover:translate-x-1" />
+                        {/* <ArrowRight className="h-6 w-6 text-white/90 transition-transform duration-300 group-hover:translate-x-1" /> */}
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               );
             })}
           </div>
