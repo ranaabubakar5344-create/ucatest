@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Future Education University College",
+  title: "UCA - FEUC ",
   description: "Official Website",
 };
 
