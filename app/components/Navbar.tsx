@@ -196,41 +196,42 @@ const MEGA_MENUS: Record<string, MegaSection> = {
     ],
   },
 
-  "RESEARCH & RESOURCE": {
-    label: "RESEARCH & RESOURCE",
-    href: "/research",
-    image: "/mega/research.jpg",
-    columns: [
-      {
-        title: "Research",
-        lists: [
-          {
-            label: "Explore",
-            href: "/research",
-            items: [
-              { label: "Projects", href: "/research/projects" },
-              { label: "Publications", href: "/research/publications" },
-              { label: "Labs", href: "/research/labs" },
-            ],
-          },
-        ],
-      },
-      {
-        title: "Resources",
-        lists: [
-          {
-            label: "Library",
-            href: "/research/library",
-            items: [
-              { label: "E-Resources", href: "/research/library/eresources" },
-              { label: "Archives", href: "/research/library/archives" },
-              { label: "Support", href: "/research/library/support" },
-            ],
-          },
-        ],
-      },
-    ],
-  },
+"ABOUT US": {
+  label: "ABOUT US",
+  href: "/about",
+  image: "/mega/about.jpg",
+  columns: [
+    {
+      title: "Who We Are",
+      lists: [
+        {
+          label: "About",
+          href: "/about",
+          items: [
+            { label: "About FEUC", href: "/about/our-story" },
+            { label: "FEUC UK", href: "https://uca.feuc.ae/about-uca-uk" },
+            { label: "Why Choose Us", href: "/about/why-us" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Our Team",
+      lists: [
+        {
+          label: "People",
+          href: "/about/team",
+          items: [
+            { label: "CEO Message", href: "/about/team/leadership" },
+            { label: "Faculty Members", href: "/about/team/faculty" },
+            // { label: "Support Staff", href: "/about/team/staff" },
+          ],
+        },
+      ],
+    },
+  ],
+},
+
 };
 
 const navItems: NavItem[] = [
@@ -248,11 +249,11 @@ const navItems: NavItem[] = [
   { label: "ADMISSIONS", href: "/admissions" },
   { label: "INDUSTRY", href: "/industry" },
   {
-    label: "RESEARCH & RESOURCE",
-    href: "/research",
+    label: "ABOUT US",
+    href: "/about",
     display: (
       <>
-     RESEARCH & RESOURCE
+        ABOUT US
       </>
     ),
   },
