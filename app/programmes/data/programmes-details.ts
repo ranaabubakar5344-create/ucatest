@@ -322,7 +322,7 @@ export const PROGRAMME_DETAILS = {
     fees: " AED 49,775 ",
     awardingBody: "University for the Creative Arts (UCA), UK",
 
-    heroImage: "/programmes/mba-hero.jpg",
+    heroImage: "/buise.jpg",
     thumbnail: "/programmes/mba-thumb.jpg",
 
     overview: [
@@ -427,7 +427,7 @@ export const PROGRAMME_DETAILS = {
     }
   },
 
-
+//msc -game-engineering 
 
     "msc-game-engineering": {
     title: "MSc Game Engineering",
@@ -441,7 +441,7 @@ export const PROGRAMME_DETAILS = {
     fees: "49,775",
     awardingBody: "University for the Creative Arts (UCA), UK",
 
-    heroImage: "/programmes/msc-game-engineering-hero.jpg",
+    heroImage: "/games.jpg",
     thumbnail: "/programmes/msc-game-engineering-thumb.jpg",
 
     overview: [
@@ -560,13 +560,122 @@ export const PROGRAMME_DETAILS = {
       applyLink: "/apply",
       brochureLink: "/brochures/msc-game-engineering.pdf"
     }
-  }
+  },
+ //bsc hons Game Devlopment,,
+
+ "game-development": {
+  title: "BSc (Hons)  Games Development",
+  slug: "game-development",
+
+  level: "Undergraduate Programme",
+  duration: "3 Years",
+  studyMode: "Full Time",
+
+  intake: ["September", "February", "June"],
+  fees: "AED 47,775 (VAT Inclusive)",
+  awardingBody: "University for the Creative Arts (UCA), UK",
+
+  heroImage: "/games.jpg",
+
+  overview: [
+    "The BSc (Hons) Game Development awarded by the University for the Creative Arts is a practice-led undergraduate degree designed to equip students with the technical, creative, and problem-solving skills required to design and develop interactive games for contemporary platforms. The course focuses on core areas such as game programming, gameplay mechanics, gameengines, prototyping, interactive systems, and collaborative development workflows, while also introducing students to game design theory and player experience. Through hands-on projects,studio-based learning, and industry-informed briefs, students learn how to develop playable games from concept to completion, working both independently and in multidisciplinary teams. \
+    Graduates leave with a strong technical foundation, a professional portfolio of completed projects, and the ability to design, build, test, and refine interactive games, apply programming and development principles effectively, collaborate within production environments, and adapt their skills for careers in game development, interactive media, or related technology-driven creative industries."
+  ],
+
+  highlights: [
+    "UK Awarded Degree (UCA)",
+    "Industry-Led Design Projects",
+    "Strong Focus on Branding & Visual Identity",
+    "Digital, Print & Motion Design Skills",
+    "Professional Portfolio Development"
+  ],
+
+  sections: [
+    {
+      title: "Entry Criteria",
+      content: {
+        Pakistan: [
+          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+        ],
+        "Foundation (Pakistan)": [
+          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+        ],
+
+        India: [
+          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+        ],
+        "Foundation (India)": [
+          "Indian HSC / Standard XII with 50% or higher"
+        ],
+
+        Philippines: [
+          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+          "Transcript showing completion of 2 years of a Bachelor's degree"
+        ],
+        "Foundation (Philippines)": [
+          "Philippine High School Diploma with 80% or higher"
+        ],
+
+        Note: [
+          "For more detailed undergraduate entry criteria, please click below.",
+          "View Full Undergraduate Requirements"
+        ]
+      }
+    },
+    {
+      title: "Fees",
+      content:
+        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+    },
+    {
+      title: "Transfer Option",
+      content:
+        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+    }
+  ],
+
+  modules: [
+    {
+      year: "Year 1",
+      items: [
+        { title: "Fundamentals of Games Development", credits: "30 ", type: "Core" },
+        { title: "Equality Diversity and Inclusion", credits: "15 ", type: "Core" },
+        { title: "Board Game Design", credits: "15 ", type: "Core" },
+       { title: "Gameplay Design and Programming", credits: "30 ", type: "Core" },
+      { title: "Client Brief", credits: "15 ", type: "Core" },
+            { title: "Interactive Narratives", credits: "15 ", type: "Core" },
+
+      ]
+    },
+    {
+      year: "Year 2",
+      items: [
+        { title: "Technical Art", credits: "30", type: "Core" },
+        { title: "The Conscious Practitioner", credits: "15 ", type: "Core" },
+        { title: "Unit from available electives", credits: "15 ", type: "Core" },
+        { title: "Tools and Production", credits: "30", type: "Core" },
+                { title: "Industry Brief", credits: "15", type: "Core" },
+                  { title: "Unit from available electives", credits: "15", type: "Core" },
+
+
+      ]
+    },
+    {
+      year: "Year 3",
+      items: [
+        { title: "Advanced Games Programming", credits: "30", type: "Core" },
+        { title: "Final Major Project: Critical & Conceptual Influences", credits: "15", type: "Core" },
+                { title: "Professional Practice", credits: "15", type: "Core" },
+                { title: "Final Major Project - Production", credits: "60", type: "Core" },
+
+
+      ]
+    }
+  ]
+},
+
 }
-
-
-
-
-
-
 
 

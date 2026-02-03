@@ -48,7 +48,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
             href: "/programmes",
             items: [
               { label: "Bsc(Hons) Computer Science", href: "/programmes/computer-science" },
-              { label: "Bsc (Hons) Games Development", href: "/school/design-media" },
+              { label: "Bsc (Hons) Games Development", href: "/programmes/game-development" },
               { label: "BA (Hons) Graphic Design", href: "/programmes/graphic-design" },
 
               { label: "BA (Hons) Buisness & Management", href: "/programmes/business-management" },
