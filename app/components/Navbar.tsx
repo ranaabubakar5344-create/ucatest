@@ -445,7 +445,6 @@ export default function SiteHeader() {
           <div className="mx-auto max-w-7xl px-4">
             <div className="h-[96px] md:h-[110px] flex items-center gap-6">
               {/* Logo */}
-  {/* Logo کے لیے updated code */}
 <Link href="/" className="flex items-center shrink-0">
   <div className="relative w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-auto">
     <Image
