@@ -11,7 +11,7 @@ export const PROGRAMME_DETAILS = {
     fees: "AED 47,775",
     awardingBody: "University for the Creative Arts (UCA), UK",
 
-    heroImage: "/comp1.png",
+    heroImage: "/compa.jpg",
 
     overview: [
       "Step into a world where technology meets creativity with our BSc (Hons) Computer Science degree awarded by UCA, UK.",
