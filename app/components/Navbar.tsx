@@ -52,8 +52,8 @@ const MEGA_MENUS: Record<string, MegaSection> = {
               { label: "BA (Hons) Graphic Design", href: "/programmes/graphic-design" },
 
               { label: "BA (Hons) Buisness & Management", href: "/programmes/business-management" },
-              { label: "BA (Hons) Visual Communication", href: "/programmes/vs" },
-              { label: "BA (Hons) Digital Marketing & Social Media", href: "/programmes/dmsm" },
+              { label: "BA (Hons) Visual Communication", href: "/programmes/visual-communication" },
+              { label: "BA (Hons) Digital Marketing & Social Media", href: "/programmes/digitalmarketing-socialmedia" },
 
  
             ],
@@ -84,8 +84,8 @@ const MEGA_MENUS: Record<string, MegaSection> = {
             label: "ENTRY ROUTES",
             href: "/programmes/degrees",
             items: [
-              { label: "Integrated Foundation Year", href: "/programmes/design-practice" },
-              { label: "Integrated Pre-Masters", href: "/programmes/biophilic" },
+              { label: "Integrated Foundation Year", href: "/programmes/integrated-foundation" },
+              { label: "Integrated Pre-Masters", href: "/programmes/integrated-premasters" },
             ],
           },
         ],

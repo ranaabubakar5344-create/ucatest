@@ -7,6 +7,12 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
+// export async function generateStaticParams() {
+//   return Object.keys(PROGRAMME_DETAILS).map((slug) => ({
+//     slug,
+//   }));
+// }
+
 export default async function ProgrammeDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const programme = PROGRAMME_DETAILS[slug as keyof typeof PROGRAMME_DETAILS];
