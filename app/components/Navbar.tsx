@@ -445,16 +445,24 @@ export default function SiteHeader() {
           <div className="mx-auto max-w-7xl px-4">
             <div className="h-[96px] md:h-[110px] flex items-center gap-6">
               {/* Logo */}
-              <Link href="/" className="flex items-center gap-4 shrink-0">
-                <Image
-                  src="/logo.png"
-                  alt="Logo"
-                  width={360}
-                  height={120}
-                  priority
-                  className="h-16 md:h-20 w-auto"
-                />
-              </Link>
+  {/* Logo کے لیے updated code */}
+<Link href="/" className="flex items-center shrink-0">
+  <div className="relative w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-auto">
+    <Image
+      src="/logo1.png"
+      alt="UCA Logo"
+      width={600}
+      height={220}
+      priority
+      className="
+        w-full 
+        h-auto
+        object-contain
+      "
+    />
+  </div>
+</Link>
+
 
               {/* Desktop nav center */}
           
