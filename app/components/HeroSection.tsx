@@ -142,7 +142,7 @@ export default function HeroSlider() {
     () => [
       {
         // 1) video slide (no overlay, no text)
-        videoMp4: "/back.mp4",
+        videoMp4: "/backs.mp4",
         poster: "/hero/robot-1.jpg",
         hideOverlay: true,
         hideText: true,
@@ -222,7 +222,7 @@ export default function HeroSlider() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.25, ease: "easeOut" }}
-          className="relative h-[78vh] md:h-[86vh]"
+          className="relative h-[78vh] md:h-[96vh]"
         >
           {/* ================= BACKGROUND ================= */}
           <div className="absolute inset-0">
