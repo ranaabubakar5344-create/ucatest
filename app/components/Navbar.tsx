@@ -35,52 +35,57 @@ type MegaSection = {
 };
 
 const MEGA_MENUS: Record<string, MegaSection> = {
-  "SCHOOLS & PROGRAMMES": {
-    label: "SCHOOLS & PROGRAMMES",
+  "PROGRAMMES": {
+    label: "PROGRAMMES",
     href: "/programmes",
-    image: "/prog.jpg",
+    image: "/pro.webp",
     columns: [
       {
-        title: "Faculties",
+        title: "Programmes",
         lists: [
           {
-            label: "Faculty of Art & Design",
-            href: "/faculty/art-design",
+            label: "UnderGraduate Programmes",
+            href: "/programmes",
             items: [
-              { label: "School of 3D Design", href: "/school/3d" },
-              { label: "School of Design & Media", href: "/school/design-media" },
-              { label: "School of Fashion Studies", href: "/school/fashion" },
+              { label: "Bsc(Hons) Computer Science", href: "/programmes/computer-science" },
+              { label: "Bsc (Hons) Games Development", href: "/school/design-media" },
+              { label: "BA (Hons) Graphic Design", href: "/programmes/graphic-design" },
+
+              { label: "BA (Hons) Buisness & Management", href: "/programmes/business-management" },
+              { label: "BA (Hons) Visual Communication", href: "/programmes/vs" },
+              { label: "BA (Hons) Digital Marketing & Social Media", href: "/programmes/dmsm" },
+
+ 
             ],
           },
-          {
-            label: "Faculty of Performing Arts",
-            href: "/faculty/performing",
-            items: [
-              { label: "School of Music", href: "/school/music" },
-              { label: "School of Dance", href: "/school/dance" },
-              { label: "School of Theatre", href: "/school/theatre" },
-            ],
-          },
+          // {
+          //   label: "Faculty of Performing Arts",
+          //   href: "/faculty/performing",
+          //   items: [
+          //     { label: "School of Music", href: "/school/music" },
+          //     { label: "School of Dance", href: "/school/dance" },
+          //     { label: "School of Theatre", href: "/school/theatre" },
+          //   ],
+          // },
         ],
       },
       {
         title: "Programmes",
         lists: [
           {
-            label: "Diplomas",
+            label: "POSTGRADUATE",
             href: "/programmes/diplomas",
             items: [
-              { label: "Diploma in Interior & Spatial", href: "/programmes/interior-spatial" },
-              { label: "Diploma in 3D Design", href: "/programmes/3d-design" },
-              { label: "Diploma in Fine Art", href: "/programmes/fine-art" },
+              { label: "Master of Buisness Administration", href: "/programmes/mba" },
+              { label: "Msc Game Engineering", href: "/programmes/msc-game-engineering" },
             ],
           },
           {
-            label: "Degrees",
+            label: "ENTRY ROUTES",
             href: "/programmes/degrees",
             items: [
-              { label: "BA (Hons) Design Practice", href: "/programmes/design-practice" },
-              { label: "BA (Hons) Biophilic Design", href: "/programmes/biophilic" },
+              { label: "Integrated Foundation Year", href: "/programmes/design-practice" },
+              { label: "Integrated Pre-Masters", href: "/programmes/biophilic" },
             ],
           },
         ],
@@ -208,8 +213,8 @@ const MEGA_MENUS: Record<string, MegaSection> = {
           label: "About",
           href: "/about",
           items: [
-            { label: "About FEUC", href: "/about/our-story" },
-            { label: "FEUC UK", href: "https://uca.feuc.ae/about-uca-uk" },
+            { label: "About FEUC", href: "/about-feuc" },
+            { label: "UCA UK", href: "/about-uca-uk" },
             { label: "Why Choose Us", href: "/about/why-us" },
           ],
         },
@@ -236,11 +241,11 @@ const MEGA_MENUS: Record<string, MegaSection> = {
 
 const navItems: NavItem[] = [
   {
-    label: "SCHOOLS & PROGRAMMES",
+    label: "PROGRAMMES",
     href: "/programmes",
     display: (
       <>
-        SCHOOLS &
+        
         PROGRAMMES
       </>
     ),
@@ -328,6 +333,8 @@ function DesktopMegaNav({
 
 export default function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const [mobileOpenKey, setMobileOpenKey] = useState<string | null>(null);
+
 
   // mega state
   const [openKey, setOpenKey] = useState<string | null>(null);
@@ -610,26 +617,76 @@ export default function SiteHeader() {
           </AnimatePresence>
 
           {/* Mobile dropdown */}
-          {open ? (
-            <div className="lg:hidden bg-[#940148]">
-              <div className="mx-auto max-w-7xl px-4 pb-6">
-                <div className="rounded-2xl bg-white/10 ring-1 ring-white/15 overflow-hidden">
-                  <div className="p-3 space-y-1">
-                    {navItems.map((item) => (
-                      <Link
-                        key={item.label}
-                        href={item.href}
-                        className="block rounded-xl px-4 py-3 text-white hover:bg-white/10"
-                        onClick={() => setOpen(false)}
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
+         {open && (
+  <div className="lg:hidden bg-[#940148]">
+    <div className="mx-auto max-w-7xl px-4 pb-6">
+      <div className="rounded-2xl bg-white/10 ring-1 ring-white/15 overflow-hidden">
+
+        {navItems.map((item) => {
+          const mega = MEGA_MENUS[item.label];
+          const isActive = mobileOpenKey === item.label;
+
+          return (
+            <div key={item.label} className="border-b border-white/10">
+              
+              {/* MAIN ITEM */}
+              <button
+                className="w-full flex items-center justify-between px-4 py-4 text-white font-semibold"
+                onClick={() =>
+                  setMobileOpenKey(isActive ? null : item.label)
+                }
+              >
+                <span>{item.label}</span>
+                <span className="text-lg">{isActive ? "−" : "+"}</span>
+              </button>
+
+              {/* EXPAND CONTENT */}
+              {isActive && mega && (
+                <div className="px-4 pb-4 space-y-6">
+
+                  {mega.columns.map((col) => (
+                    <div key={col.title}>
+                      <div className="text-yellow-300 text-xs uppercase tracking-widest mb-2">
+                        {col.title}
+                      </div>
+
+                      {col.lists.map((list) => (
+                        <div key={list.label} className="mb-3">
+                          <Link
+                            href={list.href}
+                            onClick={() => setOpen(false)}
+                            className="block text-white font-semibold text-sm"
+                          >
+                            {list.label}
+                          </Link>
+
+                          <div className="mt-2 pl-3 space-y-1">
+                            {list.items.map((it) => (
+                              <Link
+                                key={it.href}
+                                href={it.href}
+                                onClick={() => setOpen(false)}
+                                className="block text-white/80 text-sm"
+                              >
+                                {it.label}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+
                 </div>
-              </div>
+              )}
             </div>
-          ) : null}
+          );
+        })}
+      </div>
+    </div>
+  </div>
+)}
+
         </div>
       </div>
     </>

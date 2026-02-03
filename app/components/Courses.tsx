@@ -202,17 +202,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
-  ChevronRight,
-  BookOpen,
-  Brain,
-  Cpu,
-  Music,
-  Briefcase,
-  Calculator,
-  HeartPulse,
-  Layers3,
-  Palette,
+  GraduationCap,   // Foundation / General academic
+  Layers3,         // Pathways / Foundation / Pre-Masters
+  Briefcase,       // Business / Management
+  Calculator,      // Computer Science / Tech
+  Gamepad2,        // Game Development
+  Palette,         // Graphic Design / Creative
+  Megaphone,       // Digital Marketing / Social Media
+  Film,            // Visual Communication / Media
+  BookOpenCheck,   // MBA / Postgraduate
+ChevronRight,
+Cpu
 } from "lucide-react";
+
 
 type Tile = {
   title: string;
@@ -258,13 +260,16 @@ function TileCard({ title, desc, href, Icon, gradient, glow }: Tile) {
       </div>
 
       {/* content */}
-      <div className="relative z-10">
-        <h3 className="text-white font-extrabold leading-tight text-2xl md:text-[26px]">
+<div className="relative z-10 pt-16 md:pt-0">
+<h3 className="text-white font-extrabold leading-snug
+               text-[22px] sm:text-2xl md:text-[26px]
+               max-w-[18ch] md:max-w-none">
           {title}
         </h3>
 
         {desc && (
-          <p className="mt-3 text-white/90 text-sm md:text-[15px] leading-relaxed max-w-[30ch]">
+<p className="mt-3 text-white/90 text-sm md:text-[15px]
+              leading-relaxed max-w-[26ch] md:max-w-[30ch]">
             {desc}
           </p>
         )}
@@ -283,80 +288,92 @@ export default function CoursesMosaic() {
 
   const topRight: Tile[] = [
     {
-      title: "International Foundation Programme",
-      desc: "24-week foundation pathway preparing you for university…",
-      href: "/courses/international-foundation",
-      Icon: Layers3,
-      gradient: "from-[#2f7c7a] via-[#3b82f6]/70 to-[#560045]",
-      glow: "bg-[#3b82f6]/35",
+      title: "Integrated Foundation Year",
+      desc: "1 Year foundation pathway preparing you for university…",
+      href: "/courses/integrated-foundation",
+    Icon: GraduationCap,
+gradient: "from-[#f5c542] via-[#940148] to-[#560045]",
+glow: "bg-[#f5c542]/35",
     },
     {
-      title: "Business",
-      desc: "Careers-focused degrees at a leading UK Business School…",
-      href: "/courses/business",
-      Icon: Briefcase,
+      title: "Integrated Pre-Masters",
+      desc: "14 Weeks pre-masters pathway for postgraduate studies…",
+      href: "/courses/integrated-pre-masters",
+    Icon: Layers3,
       gradient: "from-yellow-300 via-[#f28a00] to-[#d1005a]",
       glow: "bg-[#f28a00]/35",
     },
     {
-      title: "Accounting & Finance",
-      desc: "Industry-recognised accounting and finance programmes…",
-      href: "/courses/accounting-finance",
-      Icon: Calculator,
+      title: "BSc(Hons) Computer Science",
+      desc: "3 Years undergraduate degree in Computer Science…",
+      href: "/programmes/computer-science",
+      Icon: Cpu,
       gradient: "from-[#940148] via-[#b40d63] to-yellow-300/70",
       glow: "bg-yellow-300/35",
     },
+  
+    
   ];
 
   const bottom: Tile[] = [
     {
-      title: "Health & Education",
-      desc: "Understand how education and wellbeing shape society…",
-      href: "/courses/health-education",
-      Icon: HeartPulse,
+      title: "BSc(Hons) Game Development",
+      desc: "3 Years undergraduate degree in Game Development…",
+      href: "/courses/game-development",
+    Icon: Gamepad2,
       gradient: "from-[#d1005a] via-[#940148] to-[#f28a00]",
       glow: "bg-[#f28a00]/35",
     },
     {
-      title: "Psychology",
-      desc: "Explore the science behind human behaviour…",
-      href: "/courses/psychology",
-      Icon: Brain,
+      title: "BA (Hons) Graphic Design",
+      desc: "3 Years undergraduate degree in Graphic Design…",
+      href: "/programmes/graphic-design",
+    Icon: Palette,
       gradient: "from-[#0ea5e9] via-[#940148] to-yellow-300/60",
       glow: "bg-[#940148]/35",
     },
     {
-      title: "Computer Engineering",
-      desc: "Build future-ready skills in computing & AI…",
-      href: "/courses/computing",
-      Icon: Cpu,
+      title: "BA (Hons) Business & Management",
+      desc: "Develop skills to excel in the business world…",
+      href: "/programmes/business-management",
+    Icon: Briefcase,
       gradient: "from-[#560045] via-[#7a0062] to-[#2f7c7a]",
       glow: "bg-[#2f7c7a]/45",
     },
     {
-      title: "Media",
+      title: "BA (Hons) Visual Communication",
       desc: "Create, communicate and influence digitally…",
       href: "/courses/media",
-      Icon: Music,
-      gradient: "from-[#2f7c7a] via-[#0ea5e9]/70 to-[#940148]",
+    Icon: Film,
+      gradient: "from-[#940148] via-[#b40d63] to-yellow-300/70",
       glow: "bg-[#0ea5e9]/35",
     },
     {
-      title: "Creative Studies",
-      desc: "Design thinking, creativity & innovation…",
+      title: "BA (Hons) Digital Marketing & Social Media",
+      desc: "Develop skills in digital marketing and social media strategy…",
       href: "/courses/creative",
-      Icon: Palette,
+    Icon: Megaphone,
       gradient: "from-[#940148] via-[#560045] to-yellow-300/55",
       glow: "bg-yellow-300/30",
     },
     {
-      title: "Short Courses",
-      desc: "Fast-track your career with professional courses…",
-      href: "/courses/short-courses",
-      Icon: BookOpen,
+      title: "MBA Masters of Business Administration",
+      desc: "1 year Fast-track your career with a postgraduate business degree…",
+      href: "/programmes/mba",
+    Icon: BookOpenCheck,
       gradient: "from-[#2f7c7a] via-[#940148] to-[#d1005a]",
       glow: "bg-[#d1005a]/35",
     },
+      {
+  title: "MSc Game Engineering",
+  desc: "1 Year Advanced studies in game development and engineering…",
+  href: "/programmes/msc-game-engineering",
+  Icon: Gamepad2,
+gradient: "from-[#940148] via-[#b40d63] to-yellow-300/70",
+glow: "bg-[#f5c542]/35",
+},
+
+    
   ];
 
   return (
@@ -375,7 +392,7 @@ export default function CoursesMosaic() {
           {/* Hero */}
           <Link
             href="/courses"
-            className="relative col-span-12 md:col-span-6 min-h-[320px] md:min-h-[380px] overflow-hidden group"
+          className="relative col-span-12 md:col-span-4 min-h-[320px] md:min-h-[380px] overflow-hidden group"
           >
             <Image
               src="/paintee.jpg"
