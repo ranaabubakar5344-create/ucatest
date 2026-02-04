@@ -8,11 +8,11 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-// export async function generateStaticParams() {
-//   return Object.keys(PROGRAMME_DETAILS).map((slug) => ({
-//     slug,
-//   }));
-// }
+export async function generateStaticParams() {
+  return Object.keys(PROGRAMME_DETAILS).map((slug) => ({
+    slug,
+  }));
+}
 
 export default async function ProgrammeDetailPage({ params }: PageProps) {
   const { slug } = await params;
@@ -245,7 +245,6 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
     leading-tight
   ">
     Everything You Need to Know
-    <br />
     About This Programme
   </h2>
 
