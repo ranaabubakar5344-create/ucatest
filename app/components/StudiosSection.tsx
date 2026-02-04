@@ -37,14 +37,14 @@ const studios: Studio[] = [
     Icon: Camera,
     accent: "purple",
   },
-  {
-    title: "3D & Innovation Lab",
-    desc: "3D modelling, fabrication, and future-ready creative technologies.",
-    href: "/facilities/3d-lab",
-    image: "/3.jpeg",
-    Icon: Cuboid,
-    accent: "yellow",
-  },
+  // {
+  //   title: "3D & Innovation Lab",
+  //   desc: "3D modelling, fabrication, and future-ready creative technologies.",
+  //   href: "/facilities/3d-lab",
+  //   image: "/3.jpeg",
+  //   Icon: Cuboid,
+  //   accent: "yellow",
+  // },
   {
     title: "Performance & Sound Spaces",
     desc: "Sound, rhythm, performance — spaces built for expression & collaboration.",
@@ -190,8 +190,8 @@ export default function StudiosSection() {
         {/*   grid */}
         <div className="mt-12 grid grid-cols-12 gap-6">
           {/* LEFT HERO  */}
-          <Link
-            href="/facilities"
+          <div
+          
 className="group relative col-span-12 lg:col-span-7 min-h-[300px] md:min-h-[360px] rounded-[34px] overflow-hidden"
 
             onMouseEnter={() => setHeroHover(true)}
@@ -263,7 +263,7 @@ className="group relative col-span-12 lg:col-span-7 min-h-[300px] md:min-h-[360p
                 </div> */}
               </div>
             </div>
-          </Link>
+          </div>
 
           {/* RIGHT STACK */}
           <div className="col-span-12 lg:col-span-5 grid grid-cols-12 gap-6">

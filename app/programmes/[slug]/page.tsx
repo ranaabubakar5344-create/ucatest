@@ -3,6 +3,7 @@ import { PROGRAMME_DETAILS } from "../data/programmes-details";
 import ProgrammeModules from "./ProgrammeModules";
 import Image from "next/image";
 import AccreditationsSlider from "./AccreditationsSlider";
+import Link from "next/link";
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -438,8 +439,8 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
                       For more detailed undergraduate entry criteria, please click below.
                     </p>
 
-                    <a
-                      href="/undergraduate-entry-requirements"
+                    <Link
+                      href="/entry-requirement"
                       className="
                         inline-flex items-center gap-3
                         px-6 py-3
@@ -452,7 +453,7 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
                         transition-all duration-300
                       "
                     >
-                      View Full Undergraduate Requirements
+                      View Full Entry Requirements
                       <svg
                         className="w-4 h-4"
                         fill="none"
@@ -466,7 +467,7 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
                           d="M9 5l7 7-7 7"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>

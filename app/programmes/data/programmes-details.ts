@@ -11,7 +11,7 @@ export const PROGRAMME_DETAILS = {
     fees: "AED 47,775",
     awardingBody: "University for the Creative Arts (UCA), UK",
 
-    heroImage: "/compa.jpg",
+    heroImage: "/co.jpg",
 
     overview: [
       "Step into a world where technology meets creativity with our BSc (Hons) Computer Science degree awarded by UCA, UK.",
@@ -914,7 +914,7 @@ export const PROGRAMME_DETAILS = {
   fees: "AED 29,775 (VAT Inclusive)",
   awardingBody: "University for the Creative Arts (UCA), UK",
 
-  heroImage: "/dig.jpg",
+  heroImage: "/Law.webp",
 
   overview: [
     "The Integrated Foundation programme is a preparatory course designed for students who wish to develop the academic, creative, and practical skills necessary to progress onto an undergraduate degree. The course provides a broad introduction to key subject areas, alongside study skills, research techniques, and professional practice, enabling students to gain confidence and competence before starting their chosen degree. On completion, students are well-equipped to succeed in higher education, having developed a strong foundation in both subject knowledge and essential academic skills.."
@@ -965,7 +965,7 @@ export const PROGRAMME_DETAILS = {
     {
       title: "Fees",
       content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+        "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
     },
     {
       title: "Transfer Option",
@@ -1006,7 +1006,7 @@ export const PROGRAMME_DETAILS = {
   fees: "AED 29,775 (VAT Inclusive)",
   awardingBody: "University for the Creative Arts (UCA), UK",
 
-  heroImage: "/dig.jpg",
+  heroImage: "/compe.jpg",
 
   overview: [
     " The Integrated Pre-Masters is a preparatory programme designed to support students who wish to progress to postgraduate study but require additional academic, research, or subject-specific preparation. The course develops advanced study skills, critical thinking, academic writing, and research methods while introducing students to key concepts relevant to their chosen master’s pathway. Through structured teaching, guided projects, and continuous assessment, students build confidence in independent learning, analytical thinking, and professional communication. On successful completion, students are equipped with the academic competence, subject knowledge, and study strategies required to progress smoothly onto a related Master’s degree, with the ability to conduct postgraduate-level research, engage critically with complex ideas, and perform effectively within a UK higher education environment."
@@ -1056,7 +1056,7 @@ export const PROGRAMME_DETAILS = {
     {
       title: "Fees",
       content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+        "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
     },
     {
       title: "Transfer Option",

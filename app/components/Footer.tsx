@@ -162,9 +162,9 @@ A creative learning ecosystem that emphasizes building your portfolio and achiev
               </h3>
               <ul className="space-y-3">
                 {[
-                  { icon: MapPin, text: 'Dubai , UAE' },
-                  { icon: Phone, text: '+971 00 000 0000' },
-                  { icon: Mail, text: 'info@example.com' },
+                  { icon: MapPin, text: 'UCA ,UAQ FTZ' },
+                  { icon: Phone, text: '+971 54 723 0622' },
+                  { icon: Mail, text: 'admissions@uca.feuc.ae' },
                 ].map((item) => (
                   <li key={item.text} className="flex items-start gap-3 text-white">
                     <item.icon className="w-4 h-4 mt-1 text-yellow-400 flex-shrink-0" />

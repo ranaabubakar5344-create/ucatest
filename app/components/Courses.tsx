@@ -298,7 +298,7 @@ glow: "bg-[#f5c542]/35",
     {
       title: "Integrated Pre-Masters",
       desc: "14 Weeks pre-masters pathway for postgraduate studies…",
-      href: "/programmes/integrated-pre-masters",
+      href: "/programmes/integrated-premasters",
     Icon: Layers3,
       gradient: "from-yellow-300 via-[#f28a00] to-[#d1005a]",
       glow: "bg-[#f28a00]/35",
@@ -317,9 +317,9 @@ glow: "bg-[#f5c542]/35",
 
   const bottom: Tile[] = [
     {
-      title: "BSc(Hons) Game Development",
+      title: "BSc(Hons) Games Development",
       desc: "3 Years undergraduate degree in Game Development…",
-      href: "/courses/game-development",
+      href: "/programmes/game-development",
     Icon: Gamepad2,
       gradient: "from-[#d1005a] via-[#940148] to-[#f28a00]",
       glow: "bg-[#f28a00]/35",

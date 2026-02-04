@@ -31,9 +31,9 @@ const ACCREDITATIONS: Accreditation[] = [
     logo: "/quality-mark.png",
   },
   {
-    name: "Rookeries",
+    name: "Rookies",
     description:
-      "Partnered with Rookeries to deliver high-quality academic governance, compliance, and institutional development.",
+      "Partnered with Rookies to deliver high-quality academic governance, compliance, and institutional development.",
     logo: "/2023-School-Rankings.png",
   },
 ];

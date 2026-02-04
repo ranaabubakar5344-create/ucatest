@@ -96,7 +96,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
   EXPERIENCE: {
     label: "EXPERIENCE",
     href: "/experience",
-    image: "/mega/experience.jpg",
+    image: "/student-life-1.webp",
     columns: [
       {
         title: "Campus",
@@ -132,7 +132,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
   ADMISSIONS: {
     label: "ADMISSIONS",
     href: "/admissions",
-    image: "/mega/admissions.jpg",
+    image: "/adm.webp",
     columns: [
       {
         title: "Apply",
@@ -141,7 +141,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
             label: "How to Apply",
             href: "/admissions/how-to-apply",
             items: [
-              { label: "Entry Requirements", href: "/admissions/requirements" },
+              { label: "Entry Requirements", href: "/entry-requirement" },
               { label: "Dates & Deadlines", href: "/admissions/dates" },
               { label: "Portfolio Guide", href: "/admissions/portfolio" },
             ],
@@ -168,7 +168,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
   INDUSTRY: {
     label: "INDUSTRY",
     href: "/industry",
-    image: "/mega/industry.jpg",
+    image: "/indus.webp",
     columns: [
       {
         title: "Partners",
@@ -204,7 +204,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
 "ABOUT US": {
   label: "ABOUT US",
   href: "/about",
-  image: "/mega/about.jpg",
+  image: "/about.jpg",
   columns: [
     {
       title: "Who We Are",
@@ -294,7 +294,7 @@ function DesktopMegaNav({
   scheduleClose: () => void;
 }) {
   return (
-    <nav className="hidden lg:flex items-center gap-6 whitespace-nowrap">
+    <nav className="hidden lg:flex items-center gap-6 whitespace-nowrap ">
       {navItems.map((item) => {
         const isOpen = openKey === item.label;
 
