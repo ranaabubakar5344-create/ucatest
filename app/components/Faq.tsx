@@ -182,7 +182,7 @@ export default function FAQPremiumColorful({
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
-              href="/apply"
+              href="/#"
               className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-[#940148] px-7 py-4 font-semibold shadow-lg shadow-black/35 hover:brightness-110 transition"
             >
               Apply Now
@@ -190,7 +190,7 @@ export default function FAQPremiumColorful({
             </Link>
 
             <Link
-              href="/contact"
+              href="/"
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-7 py-4 font-semibold ring-1 ring-white/20 hover:bg-white/15 transition"
             >
               Ask a Question
@@ -362,7 +362,7 @@ export default function FAQPremiumColorful({
 
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
                   <Link
-                    href="/contact"
+                    href="/#"
                     className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-yellow-300 px-6 py-4 font-semibold text-black hover:brightness-105 transition"
                   >
                     Contact Us
@@ -370,7 +370,7 @@ export default function FAQPremiumColorful({
                   </Link>
 
                   <Link
-                    href="/visit"
+                    href="/#"
                     className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-6 py-4 font-semibold ring-1 ring-white/20 hover:bg-white/15 transition"
                   >
                     Book a Tour

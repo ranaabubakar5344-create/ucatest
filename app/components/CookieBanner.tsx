@@ -45,7 +45,7 @@ useEffect(() => {
           This website uses cookies to ensure you get the best experience on our
           website.{" "}
           <Link
-            href="/privacy-policy"
+            href="/#"
             className="underline underline-offset-4 hover:opacity-80"
           >
             Read our Privacy Policy

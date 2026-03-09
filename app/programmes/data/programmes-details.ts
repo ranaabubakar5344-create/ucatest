@@ -62,253 +62,306 @@ export const PROGRAMME_DETAILS = {
       {
         year: "Year 1",
         items: [
-          { title: "Introduction to Programming", credits: "20 Credits", type: "Core" },
-          { title: "Computer Systems & Architecture", credits: "20 Credits", type: "Core" },
-          { title: "Web Technologies", credits: "20 Credits", type: "Core" },
+          { title: "Programming & Interactivity", credits: "20 Credits", type: "Core" },
+          { title: "Data & Databases", credits: "20 Credits", type: "Core" },
+          { title: "Equality, Diversity & Inclusion", credits: "20 Credits", type: "Core" },
+          { title: "Personalised Learning Experience", credits: "20 Credits", type: "Core" },
+
+          { title: "Programming & GUI Applications", credits: "20 Credits", type: "Core" },
+          { title: "Web Design & Development", credits: "20 Credits", type: "Core" },
+          { title: " The Computing Professional", credits: "20 Credits", type: "Core" },
+          { title: " ATOM Activities", credits: "20 Credits", type: "Core" },
+
+
         ]
       },
       {
         year: "Year 2",
         items: [
-          { title: "Data Structures & Algorithms", credits: "20 Credits", type: "Core" },
-          { title: "Database Systems", credits: "20 Credits", type: "Core" },
-          { title: "Software Engineering", credits: "20 Credits", type: "Core" },
+          { title: "Object-Oriented Programming & Cybersecurity", credits: "20 Credits", type: "Core" },
+          { title: "The Conscious Practitioner", credits: "20 Credits", type: "Core" },
+          { title: "Hardware Projects / Motion Capture / Digital Storytelling", credits: "20 Credits", type: "Core" },
+          { title: "Personalised Learning Experience", credits: "20 Credits", type: "Core" },
+
+          { title: "Introduction to Artificial Intelligence", credits: "20 Credits", type: "Core" },
+
+          { title: "Application Development: Industry Brief", credits: "20 Credits", type: "Core" },
+          { title: "Virtual Production / Environmental Storytelling / Pervasive Game Studio", credits: "20 Credits", type: "Core" },
+          { title: "ATOM Activities", credits: "20 Credits", type: "Core" },
+
         ]
       },
       {
         year: "Year 3",
         items: [
-          { title: "Artificial Intelligence", credits: "20 Credits", type: "Core" },
-          { title: "Cyber Security", credits: "20 Credits", type: "Core" },
+          { title: "Artificial Intelligence for Creativity", credits: "20 Credits", type: "Core" },
+          { title: "Mobile Application Development", credits: "20 Credits", type: "Core" },
           { title: "Final Year Project", credits: "40 Credits", type: "Core" },
         ]
       }
     ]
 
 
-    
+
   },
 
   //graphic design
 
-"graphic-design": {
-  title: "BA (Hons) Graphic Design",
-  slug: "graphic-design",
+  "graphic-design": {
+    title: "BA (Hons) Graphic Design",
+    slug: "graphic-design",
 
-  level: "Undergraduate Programme",
-  duration: "3 Years",
-  studyMode: "Full Time",
+    level: "Undergraduate Programme",
+    duration: "3 Years",
+    studyMode: "Full Time",
 
-  intake: ["September", "February", "June"],
-  fees: "AED 47,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
+    intake: ["September", "February", "June"],
+    fees: "AED 47,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
 
-  heroImage: "/graa.jpg",
+    heroImage: "/graa.jpg",
 
-  overview: [
-    "The BA (Hons) Graphic Design programme at UCA empowers students to explore visual communication through creativity, experimentation, and professional practice.",
-    "This programme develops strong conceptual thinking, design literacy, and practical skills across branding, typography, digital media, and visual storytelling.",
-    "Students work on industry-informed briefs, live projects, and portfolio development to prepare for careers in the global creative industries."
-  ],
+    overview: [
+      "The BA (Hons) Graphic Design programme at UCA empowers students to explore visual communication through creativity, experimentation, and professional practice.",
+      "This programme develops strong conceptual thinking, design literacy, and practical skills across branding, typography, digital media, and visual storytelling.",
+      "Students work on industry-informed briefs, live projects, and portfolio development to prepare for careers in the global creative industries."
+    ],
 
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
 
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
 
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
 
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
 
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Year 1",
+        items: [
+          { title: "Design Concepts", credits: "", type: "Core" },
+          { title: "Equality, Diversity & Inclusion", credits: "", type: "Core" },
+          { title: "Typographic Studies", credits: "", type: "Core" },
+          { title: "Personalised Learning Experience", credits: "", type: "Core" },
+
+          { title: "Design Thinking", credits: "", type: "Core" },
+
+          { title: "Design Creativity & Innovation", credits: "", type: "Core" },
+          { title: "Proclamation", credits: "", type: "Core" },
+          { title: "ATOM Activities", credits: "", type: "Core" },
+
+        ]
+      },
+      {
+        year: "Year 2",
+        items: [
+          { title: "Multimodal Approaches to Design", credits: "", type: "Core" },
+          { title: "The Conscious Practitioner", credits: "", type: "Core" },
+          { title: "Typographic Studies 2.0 / Impact 2 (Elective)", credits: "", type: "Core" },
+          { title: "Design for Screen", credits: "", type: "Core" },
+          { title: "Building an Identity", credits: "", type: "Core" },
+          { title: "Working in the Creative Industries", credits: "", type: "Core" },
+          { title: "ATOM Activities", credits: "", type: "Core" },
+        ]
+      },
+      {
+        year: "Year 3",
+        items: [
+          { title: "Industry-Led Competitions", credits: "", type: "Core" },
+          { title: "Contextual Research", credits: "", type: "Core" }
+          ,
+          { title: "Final Major Project", credits: "", type: "Core" }
+
         ]
       }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-    {
-      year: "Year 1",
-      items: [
-        { title: "Principles of Graphic Design", credits: "30 Credits", type: "Core" },
-        { title: "Typography & Visual Language", credits: "15 Credits", type: "Core" },
-        { title: "Digital Design Fundamentals", credits: "15 Credits", type: "Core" }
-      ]
-    },
-    {
-      year: "Year 2",
-      items: [
-        { title: "Branding & Visual Identity", credits: "30 Credits", type: "Core" },
-        { title: "Design for Digital Media", credits: "15 Credits", type: "Core" },
-        { title: "Creative Industry Practice", credits: "15 Credits", type: "Core" }
-      ]
-    },
-    {
-      year: "Year 3",
-      items: [
-        { title: "Major Design Project", credits: "60 Credits", type: "Core" }
-      ]
-    }
-  ]
-},
+    ]
+  },
 
 
-//buisness managmet BA
+  //buisness managmet BA
 
 
-"business-management": {
-  title: "BA (Hons) Business Management",
-  slug: "business-management",
+  "business-management": {
+    title: "BA (Hons) Business Management",
+    slug: "business-management",
 
-  level: "Undergraduate Programme",
-  duration: "3 Years",
-  studyMode: "Full Time",
+    level: "Undergraduate Programme",
+    duration: "3 Years",
+    studyMode: "Full Time",
 
-  intake: ["September", "February", "June"],
-  fees: "AED 47,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
+    intake: ["September", "February", "June"],
+    fees: "AED 47,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
 
-  heroImage: "/buise.jpg",
+    heroImage: "/buise.jpg",
 
-  overview: [
-    "The global creative economy is one of the world’s fastest-growing sectors, generating employment, innovation, and economic growth across societies worldwide.",
-    "The BA (Hons) Business Management programme prepares students for leadership roles in the global creative industries by developing strategic, entrepreneurial, and analytical business skills.",
-    "Students gain financial literacy, data analysis capabilities, and decision-making insight, enabling them to manage organisations and solve complex business challenges within creative and cultural sectors.",
-    "By the end of the programme, graduates will demonstrate strong communication, leadership, teamwork, and ethical management skills, with a deep understanding of equality, diversity, and inclusion in global creative organisations."
-  ],
+    overview: [
+      "The global creative economy is one of the world’s fastest-growing sectors, generating employment, innovation, and economic growth across societies worldwide.",
+      "The BA (Hons) Business Management programme prepares students for leadership roles in the global creative industries by developing strategic, entrepreneurial, and analytical business skills.",
+      "Students gain financial literacy, data analysis capabilities, and decision-making insight, enabling them to manage organisations and solve complex business challenges within creative and cultural sectors.",
+      "By the end of the programme, graduates will demonstrate strong communication, leadership, teamwork, and ethical management skills, with a deep understanding of equality, diversity, and inclusion in global creative organisations."
+    ],
 
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Creative Industries Business Focus",
-    "Entrepreneurship & Strategic Leadership",
-    "Financial Literacy & Data Analytics",
-    "Global Creative Economy Insight"
-  ],
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Creative Industries Business Focus",
+      "Entrepreneurship & Strategic Leadership",
+      "Financial Literacy & Data Analytics",
+      "Global Creative Economy Insight"
+    ],
 
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognized Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognized Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
 
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (all boards including CBSE & CISCE)",
-          "Completion of Year 1 of a Bachelor's degree from a recognized Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher (all boards including CBSE & CISCE)"
-        ],
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (all boards including CBSE & CISCE)",
+            "Completion of Year 1 of a Bachelor's degree from a recognized Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher (all boards including CBSE & CISCE)"
+          ],
 
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with B, GPA 2.0/5.0 (1 is the highest mark) or GPA 3.0/4.0",
-          "Transcript showing successful completion of two years of a Bachelor's degree from a recognised Philippine university with B, GPA 2.0/5.0 or GPA 3.0/4.0"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or better"
-        ],
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with B, GPA 2.0/5.0 (1 is the highest mark) or GPA 3.0/4.0",
+            "Transcript showing successful completion of two years of a Bachelor's degree from a recognised Philippine university with B, GPA 2.0/5.0 or GPA 3.0/4.0"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or better"
+          ],
 
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+
+      {
+        title: "Intake",
+        content: "September, February and June"
+      },
+
+      {
+        title: "Fees",
+        content:
+          "AED 47,775 per year (VAT Inclusive). Scholarships and financial support may be available for eligible students."
+      },
+
+      {
+        title: "Transfer Option",
+        content:
+          "Students may have the opportunity to transfer to UCA UK upon successful completion of Year 1, subject to academic performance and availability."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Year 1",
+        items: [
+         { title: "Programming & Interactivity", credits: "", type: "Core" },
+          { title: "Data & Databases", credits: "", type: "Core" },
+          { title: "Equality, Diversity & Inclusion", credits: "", type: "Core" },
+          { title: "Personalised Learning Experience", credits: "", type: "Core" },
+
+          { title: "Programming & GUI Applications", credits: "", type: "Core" },
+          { title: "Web Design & Development", credits: "", type: "Core" },
+          { title: " The Computing Professional", credits: "", type: "Core" },
+          { title: " ATOM Activities", credits: "", type: "Core" },
+        ]
+      },
+      {
+        year: "Year 2",
+        items: [
+          { title: "Strategic Management: Funding, Finance, and Business Modelling", credits: "", type: "Core" },
+                  { title: "Project Management in the Creative Industries", credits: "", type: "Core" },
+          { title: "Elective Unit", credits: "", type: "Core" },
+          { title: "Personalised Learning Experience", credits: "", type: "Core" },
+                    { title: "Personalised Learning Experience", credits: "", type: "Core" },
+
+                              { title: "Consumer Behaviour in the Creative Industries", credits: "", type: "Core" },
+
+                              { title: "Professional Practice: Your Professional Self", credits: "", type: "Core" },
+                              { title: "Creative Business Brief: Digital Futures", credits: "", type: "Core" },
+                              { title: "ATOM Activities", credits: "", type: "Core" },
+
+        ]
+      },
+      {
+        year: "Year 3",
+        items: [
+          { title: "Business Strategy and Decision Making in the Creative Industries", credits: "", type: "Core" },
+      { title: "Operations and Supply Chain Management in the Creative Industries", credits: "", type: "Core" },
+   { title: "Data Analytics in the Creative Industries", credits: "", type: "Core" },
+      { title: "Final Major Project: Creative and Cultural Industries", credits: "", type: "Core" },
+
+
+
         ]
       }
-    },
+    ],
 
-    {
-      title: "Intake",
-      content: "September, February and June"
-    },
-
-    {
-      title: "Fees",
-      content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and financial support may be available for eligible students."
-    },
-
-    {
-      title: "Transfer Option",
-      content:
-        "Students may have the opportunity to transfer to UCA UK upon successful completion of Year 1, subject to academic performance and availability."
+    cta: {
+      applyLink: "/apply",
+      brochureLink: "/brochures/ba-business-management.pdf"
     }
-  ],
+  },
 
-  modules: [
-    {
-      year: "Year 1",
-      items: [
-        { title: "Principles of Business Management", credits: "30 Credits", type: "Core" },
-        { title: "Introduction to the Creative Industries", credits: "15 Credits", type: "Core" },
-        { title: "Marketing Fundamentals", credits: "15 Credits", type: "Core" }
-      ]
-    },
-    {
-      year: "Year 2",
-      items: [
-        { title: "Strategic Management", credits: "30 Credits", type: "Core" },
-        { title: "Entrepreneurship & Innovation", credits: "15 Credits", type: "Core" },
-        { title: "Financial & Data Analysis for Business", credits: "15 Credits", type: "Core" }
-      ]
-    },
-    {
-      year: "Year 3",
-      items: [
-        { title: "Business Research Project", credits: "60 Credits", type: "Core" }
-      ]
-    }
-  ],
-
-  cta: {
-    applyLink: "/apply",
-    brochureLink: "/brochures/ba-business-management.pdf"
-  }
-},
-
-//mba
+  //mba
 
   "mba": {
     title: "Master of Business Administration (MBA)",
@@ -427,9 +480,9 @@ export const PROGRAMME_DETAILS = {
     }
   },
 
-//msc -game-engineering 
+  //msc -game-engineering 
 
-    "msc-game-engineering": {
+  "msc-game-engineering": {
     title: "MSc Game Engineering",
     slug: "msc-game-engineering",
 
@@ -561,547 +614,547 @@ export const PROGRAMME_DETAILS = {
       brochureLink: "/brochures/msc-game-engineering.pdf"
     }
   },
- //bsc hons Game Devlopment,,
+  //bsc hons Game Devlopment,,
 
- "game-development": {
-  title: "BSc (Hons)  Games Development",
-  slug: "game-development",
+  "game-development": {
+    title: "BSc (Hons)  Games Development",
+    slug: "game-development",
 
-  level: "Undergraduate Programme",
-  duration: "3 Years",
-  studyMode: "Full Time",
+    level: "Undergraduate Programme",
+    duration: "3 Years",
+    studyMode: "Full Time",
 
-  intake: ["September", "February", "June"],
-  fees: "AED 47,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
+    intake: ["September", "February", "June"],
+    fees: "AED 47,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
 
-  heroImage: "/games.jpg",
+    heroImage: "/games.jpg",
 
-  overview: [
-    "The BSc (Hons) Game Development awarded by the University for the Creative Arts is a practice-led undergraduate degree designed to equip students with the technical, creative, and problem-solving skills required to design and develop interactive games for contemporary platforms. The course focuses on core areas such as game programming, gameplay mechanics, gameengines, prototyping, interactive systems, and collaborative development workflows, while also introducing students to game design theory and player experience. Through hands-on projects,studio-based learning, and industry-informed briefs, students learn how to develop playable games from concept to completion, working both independently and in multidisciplinary teams. \
+    overview: [
+      "The BSc (Hons) Game Development awarded by the University for the Creative Arts is a practice-led undergraduate degree designed to equip students with the technical, creative, and problem-solving skills required to design and develop interactive games for contemporary platforms. The course focuses on core areas such as game programming, gameplay mechanics, gameengines, prototyping, interactive systems, and collaborative development workflows, while also introducing students to game design theory and player experience. Through hands-on projects,studio-based learning, and industry-informed briefs, students learn how to develop playable games from concept to completion, working both independently and in multidisciplinary teams. \
     Graduates leave with a strong technical foundation, a professional portfolio of completed projects, and the ability to design, build, test, and refine interactive games, apply programming and development principles effectively, collaborate within production environments, and adapt their skills for careers in game development, interactive media, or related technology-driven creative industries."
-  ],
+    ],
 
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
 
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
 
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
 
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
 
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Year 1",
+        items: [
+          { title: "Fundamentals of Games Development", credits: "30 ", type: "Core" },
+          { title: "Equality Diversity and Inclusion", credits: "15 ", type: "Core" },
+          { title: "Board Game Design", credits: "15 ", type: "Core" },
+          { title: "Gameplay Design and Programming", credits: "30 ", type: "Core" },
+          { title: "Client Brief", credits: "15 ", type: "Core" },
+          { title: "Interactive Narratives", credits: "15 ", type: "Core" },
+
+        ]
+      },
+      {
+        year: "Year 2",
+        items: [
+          { title: "Technical Art", credits: "30", type: "Core" },
+          { title: "The Conscious Practitioner", credits: "15 ", type: "Core" },
+          { title: "Unit from available electives", credits: "15 ", type: "Core" },
+          { title: "Tools and Production", credits: "30", type: "Core" },
+          { title: "Industry Brief", credits: "15", type: "Core" },
+          { title: "Unit from available electives", credits: "15", type: "Core" },
+
+
+        ]
+      },
+      {
+        year: "Year 3",
+        items: [
+          { title: "Advanced Games Programming", credits: "30", type: "Core" },
+          { title: "Final Major Project: Critical & Conceptual Influences", credits: "15", type: "Core" },
+          { title: "Professional Practice", credits: "15", type: "Core" },
+          { title: "Final Major Project - Production", credits: "60", type: "Core" },
+
+
         ]
       }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-    {
-      year: "Year 1",
-      items: [
-        { title: "Fundamentals of Games Development", credits: "30 ", type: "Core" },
-        { title: "Equality Diversity and Inclusion", credits: "15 ", type: "Core" },
-        { title: "Board Game Design", credits: "15 ", type: "Core" },
-       { title: "Gameplay Design and Programming", credits: "30 ", type: "Core" },
-      { title: "Client Brief", credits: "15 ", type: "Core" },
-            { title: "Interactive Narratives", credits: "15 ", type: "Core" },
-
-      ]
-    },
-    {
-      year: "Year 2",
-      items: [
-        { title: "Technical Art", credits: "30", type: "Core" },
-        { title: "The Conscious Practitioner", credits: "15 ", type: "Core" },
-        { title: "Unit from available electives", credits: "15 ", type: "Core" },
-        { title: "Tools and Production", credits: "30", type: "Core" },
-                { title: "Industry Brief", credits: "15", type: "Core" },
-                  { title: "Unit from available electives", credits: "15", type: "Core" },
-
-
-      ]
-    },
-    {
-      year: "Year 3",
-      items: [
-        { title: "Advanced Games Programming", credits: "30", type: "Core" },
-        { title: "Final Major Project: Critical & Conceptual Influences", credits: "15", type: "Core" },
-                { title: "Professional Practice", credits: "15", type: "Core" },
-                { title: "Final Major Project - Production", credits: "60", type: "Core" },
-
-
-      ]
-    }
-  ]
-},
-   //Ba hons visual communication.....
-    "visual-communication": {
-  title: "BA (Hons)Visual Communication",
-  slug: "visual-communication",
-
-  level: "Undergraduate Programme",
-  duration: "3 Years",
-  studyMode: "Full Time",
-
-  intake: ["September", "February", "June"],
-  fees: "AED 47,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
-
-  heroImage: "/visal.webp",
-
-  overview: [
-    "The BA (Hons) Visual Communication awarded by University for the Creative Arts UK is a practice-led undergraduate degree that explores how ideas, information, and narratives arecommunicated through visual language across print and digital media. The course develops creative, conceptual, and technical skills in areas such as graphic design, branding, typography,image-making, layout, and visual storytelling, while encouraging critical thinking and experimentation.Through studio-based projects, research, and professional practice, students learn to respond effectively to creative briefs, understand audiences and contexts, and produce visually engaging, purposeful design solutions. Graduates of the programme develop a strong professional portfolio and leave with the ability to communicate ideas clearly and creatively, apply strategic and conceptual thinking to real-world design challenges, use industry-standard tools and processes, present and justify design decisions with confidence, and work independently or collaboratively within contemporary creative industries."
-  ],
-
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
-
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
-
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
-
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
-
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
-        ]
-      }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-    {
-      year: "Year 1",
-      items: [
-        { title: "What is Visual Communication?", credits: "30 ", type: "Core" },
-        { title: "Equality Diversity and Inclusion", credits: "15 ", type: "Core" },
-        { title: "Defining Your Practice", credits: "15 ", type: "Core" },
-       { title: "Practice-based Fundamentals (GD / Illustration / Animation, Moving Image and Photography [AMIP])", credits: "30 ", type: "Core" },
-      { title: "Preparing for Professional Practice: Part 1", credits: "15 ", type: "Core" },
-            { title: "Individual Reflection and Progression", credits: "15 ", type: "Core" },
-
-      ]
-    },
-    {
-      year: "Year 2",
-      items: [
-        { title: "Visual Storytelling (Modular: GD / Illustration / AMIP)", credits: "30", type: "Core" },
-        { title: "The Conscious Practitioner", credits: "15 ", type: "Core" },
-        { title: "Interdisciplinary Electives", credits: "15 ", type: "Core" },
-        { title: "Spatial Practices (Modular: GD / Illustration / AMIP)", credits: "15", type: "Core" },
-                { title: "Industry Brief", credits: "15", type: "Core" },
-                  { title: "Preparing for Professional Practice (part 3): Placement", credits: "15", type: "Core" },
-
-
-      ]
-    },
-    {
-      year: "Year 3",
-      items: [
-        { title: "Critical Research and Practice", credits: "30", type: "Core" },
-        { title: "Professional Practices", credits: "30", type: "Core" },
-                { title: "Self-Directed Final Major Project", credits: "60", type: "Core" },
-
-
-      ]
-    }
-  ]
-},
-
-//BA HONS DIGITAL MARKETING & SOCIAL MDIA
-
-"digitalmarketing-socialmedia": {
-  title: "BA (Hons) Digital Marketing & Social Media",
-  slug: "digital-marketing",
-
-  level: "Undergraduate Programme",
-  duration: "3 Years",
-  studyMode: "Full Time",
-
-  intake: ["September", "February", "June"],
-  fees: "AED 47,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
-
-  heroImage: "/dig.jpg",
-
-  overview: [
-    "The BA (Hons) Digital Marketing &amp; Social media awarded by the University for the Creative Arts is a forward-thinking undergraduate degree designed for anyone ready to take a leading role in the fast-paced world of digital communication and marketing. This programme equips students with the strategic, creative, and analytical skills needed to succeed in modern marketing roles, blending marketing theory with practical digital and social media application.Students learn how social and digital platforms influence audiences, shape brand narratives, and drive commercial results. Core topics include brand identity, campaign planning, audience engagement, media planning across paid, owned, and earned channels, and understanding the societal and business impact of social media. Elective units allow students to tailor their learning to specialist interests such as content creation, creative strategy, and cross-cultural management.Through a mix of theoretical study, real-world briefs, and industry-relevant projects, learners gain the confidence to create effective digital marketing plans, build compelling content, and manage integrated campaigns. Optional foundation and professional placement years further enhance practical experience, preparing graduates to step straight into roles such as digital marketing manager, social media strategist, content executive, and other key positions within the creative and business sectors."
-  ],
-
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
-
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
-
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
-
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
-
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
-        ]
-      }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-    {
-      year: "Year 1",
-      items: [
-        { title: "Principles of Marketing", credits: "30 ", type: "Core" },
-        { title: "Social media: The Campaign", credits: "15 ", type: "Core" },
-        { title: "Elective: Brand Logo and Design", credits: "15 ", type: "Core" },
-       { title: "Navigating the Consumer Journey", credits: "30 ", type: "Core" },
-      { title: "Understanding Consumers and Audiences", credits: "15 ", type: "Core" },
-            { title: "Industry Brief in Branding &amp; Communications", credits: "15 ", type: "Core" },
-
-      ]
-    },
-    {
-      year: "Year 2",
-      items: [
-        { title: "Multiplatform Delivery", credits: "30", type: "Core" },
-        { title: "Principles of Content Creation", credits: "15 ", type: "Core" },
-        { title: "Elective: Creative Content Analogue and Digital Design", credits: "15 ", type: "Core" },
-        { title: "Storytelling and Narrative", credits: "15", type: "Core" },
-                { title: "Influence, Self-Branding, and Promotion", credits: "15", type: "Core" },
-                  { title: "Creative Business Brief in Branding &amp; Communications", credits: "15", type: "Core" },
-
-
-      ]
-    },
-    {
-      year: "Year 3",
-      items: [
-        { title: "Strategic Planning", credits: "30", type: "Core" },
-        { title: "Creative Enterprise and Engagement", credits: "15", type: "Core" },
-                { title: "Ethics and Society", credits: "15", type: "Core" },
- { title: "Degree Project in Branding and Communication", credits: "60", type: "Core" },
-
-      ]
-    }
-  ]
-},
-
-//The Integrated Foundation
-
-"integrated-foundation": {
-  title: "Integrated Foundation",
-  slug: "integrated-foundation",
-
-  level: "ENTRY ROUTES",
-  duration: "1 Year",
-  studyMode: "Full Time",
-
-  intake: ["September", "February", "June"],
-  fees: "AED 29,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
-
-  heroImage: "/Law.webp",
-
-  overview: [
-    "The Integrated Foundation programme is a preparatory course designed for students who wish to develop the academic, creative, and practical skills necessary to progress onto an undergraduate degree. The course provides a broad introduction to key subject areas, alongside study skills, research techniques, and professional practice, enabling students to gain confidence and competence before starting their chosen degree. On completion, students are well-equipped to succeed in higher education, having developed a strong foundation in both subject knowledge and essential academic skills.."
-  ],
-
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
-
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
-
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
-
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
-
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
-        ]
-      }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-    
-   
-    {
-      year: "Year 3",
-      items: [
-        { title: "Exploring Creativity", credits: "30", type: "Core" },
-        { title: "Research and Inspiration", credits: "15", type: "Core" },
-       { title: "Creative Practical Skills 1", credits: "15", type: "Core" },
- { title: "Creative Practice", credits: "30", type: "Core" },
- { title: "Research and Writing", credits: "15", type: "Core" },
- { title: "Creative Practical Skills 2", credits: "15", type: "Core" },
-
-      ]
-    }
-  ]
-},
-
-// The Integrated pre-masters...
-
-"integrated-premasters": {
-  title: "Integrated PreMasters",
-  slug: "integrated-premasters",
-
-  level: "ENTRY ROUTES",
-  duration: "1 Year",
-  studyMode: "Full Time",
-
-  intake: ["September", "February", "June"],
-  fees: "AED 29,775 (VAT Inclusive)",
-  awardingBody: "University for the Creative Arts (UCA), UK",
-
-  heroImage: "/compe.jpg",
-
-  overview: [
-    " The Integrated Pre-Masters is a preparatory programme designed to support students who wish to progress to postgraduate study but require additional academic, research, or subject-specific preparation. The course develops advanced study skills, critical thinking, academic writing, and research methods while introducing students to key concepts relevant to their chosen master’s pathway. Through structured teaching, guided projects, and continuous assessment, students build confidence in independent learning, analytical thinking, and professional communication. On successful completion, students are equipped with the academic competence, subject knowledge, and study strategies required to progress smoothly onto a related Master’s degree, with the ability to conduct postgraduate-level research, engage critically with complex ideas, and perform effectively within a UK higher education environment."
-  ],
-  highlights: [
-    "UK Awarded Degree (UCA)",
-    "Industry-Led Design Projects",
-    "Strong Focus on Branding & Visual Identity",
-    "Digital, Print & Motion Design Skills",
-    "Professional Portfolio Development"
-  ],
-
-  sections: [
-    {
-      title: "Entry Criteria",
-      content: {
-        Pakistan: [
-          "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
-          "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
-        ],
-        "Foundation (Pakistan)": [
-          "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
-        ],
-
-        India: [
-          "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
-          "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
-        ],
-        "Foundation (India)": [
-          "Indian HSC / Standard XII with 50% or higher"
-        ],
-
-        Philippines: [
-          "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
-          "Transcript showing completion of 2 years of a Bachelor's degree"
-        ],
-        "Foundation (Philippines)": [
-          "Philippine High School Diploma with 80% or higher"
-        ],
-
-        Note: [
-          "For more detailed undergraduate entry criteria, please click below.",
-          "View Full Undergraduate Requirements"
-        ]
-      }
-    },
-    {
-      title: "Fees",
-      content:
-        "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
-    },
-    {
-      title: "Transfer Option",
-      content:
-        "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-    }
-  ],
-
-  modules: [
-  {
-    year: "Level 6",
-    items: [
-      { title: "Creative Practice", credits: "30 Credits", type: "Core" },
-      { title: "Research and Critical Analysis", credits: "15 Credits", type: "Core" },
-      { title: "Practical Skillset I", credits: "15 Credits", type: "Core" },
-      { title: "Specialist Practice", credits: "30 Credits", type: "Core" },
-      { title: "Research and Critical Analysis II", credits: "15 Credits", type: "Core" },
-      { title: "Practical Skillset II", credits: "15 Credits", type: "Core" }
     ]
   },
-  {
-    year: "Level 7",
-    items: [
-      { title: "Strategic Innovation and Finance", credits: "30 Credits", type: "Core" },
-      {
-        title: "Business Analytics and Operations in the Creative Industries",
-        credits: "30 Credits",
-        type: "Core"
-      },
-      {
-        title: "Marketing Strategy and Creative Industries",
-        credits: "30 Credits",
-        type: "Core"
-      },
-      {
-        title: "Leadership, Decision-Making, and Culture",
-        credits: "30 Credits",
-        type: "Core"
-      },
-      { title: "Final Major Project", credits: "60 Credits", type: "Core" }
-    ]
-  }
-]
+  //Ba hons visual communication.....
+  "visual-communication": {
+    title: "BA (Hons)Visual Communication",
+    slug: "visual-communication",
 
-},
+    level: "Undergraduate Programme",
+    duration: "3 Years",
+    studyMode: "Full Time",
+
+    intake: ["September", "February", "June"],
+    fees: "AED 47,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
+
+    heroImage: "/visal.webp",
+
+    overview: [
+      "The BA (Hons) Visual Communication awarded by University for the Creative Arts UK is a practice-led undergraduate degree that explores how ideas, information, and narratives arecommunicated through visual language across print and digital media. The course develops creative, conceptual, and technical skills in areas such as graphic design, branding, typography,image-making, layout, and visual storytelling, while encouraging critical thinking and experimentation.Through studio-based projects, research, and professional practice, students learn to respond effectively to creative briefs, understand audiences and contexts, and produce visually engaging, purposeful design solutions. Graduates of the programme develop a strong professional portfolio and leave with the ability to communicate ideas clearly and creatively, apply strategic and conceptual thinking to real-world design challenges, use industry-standard tools and processes, present and justify design decisions with confidence, and work independently or collaboratively within contemporary creative industries."
+    ],
+
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
+
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
+
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
+
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
+
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Year 1",
+        items: [
+          { title: "What is Visual Communication?", credits: "30 ", type: "Core" },
+          { title: "Equality Diversity and Inclusion", credits: "15 ", type: "Core" },
+          { title: "Defining Your Practice", credits: "15 ", type: "Core" },
+          { title: "Practice-based Fundamentals (GD / Illustration / Animation, Moving Image and Photography [AMIP])", credits: "30 ", type: "Core" },
+          { title: "Preparing for Professional Practice: Part 1", credits: "15 ", type: "Core" },
+          { title: "Individual Reflection and Progression", credits: "15 ", type: "Core" },
+
+        ]
+      },
+      {
+        year: "Year 2",
+        items: [
+          { title: "Visual Storytelling (Modular: GD / Illustration / AMIP)", credits: "30", type: "Core" },
+          { title: "The Conscious Practitioner", credits: "15 ", type: "Core" },
+          { title: "Interdisciplinary Electives", credits: "15 ", type: "Core" },
+          { title: "Spatial Practices (Modular: GD / Illustration / AMIP)", credits: "15", type: "Core" },
+          { title: "Industry Brief", credits: "15", type: "Core" },
+          { title: "Preparing for Professional Practice (part 3): Placement", credits: "15", type: "Core" },
+
+
+        ]
+      },
+      {
+        year: "Year 3",
+        items: [
+          { title: "Critical Research and Practice", credits: "30", type: "Core" },
+          { title: "Professional Practices", credits: "30", type: "Core" },
+          { title: "Self-Directed Final Major Project", credits: "60", type: "Core" },
+
+
+        ]
+      }
+    ]
+  },
+
+  //BA HONS DIGITAL MARKETING & SOCIAL MDIA
+
+  "digitalmarketing-socialmedia": {
+    title: "BA (Hons) Digital Marketing & Social Media",
+    slug: "digital-marketing",
+
+    level: "Undergraduate Programme",
+    duration: "3 Years",
+    studyMode: "Full Time",
+
+    intake: ["September", "February", "June"],
+    fees: "AED 47,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
+
+    heroImage: "/dig.jpg",
+
+    overview: [
+      "The BA (Hons) Digital Marketing &amp; Social media awarded by the University for the Creative Arts is a forward-thinking undergraduate degree designed for anyone ready to take a leading role in the fast-paced world of digital communication and marketing. This programme equips students with the strategic, creative, and analytical skills needed to succeed in modern marketing roles, blending marketing theory with practical digital and social media application.Students learn how social and digital platforms influence audiences, shape brand narratives, and drive commercial results. Core topics include brand identity, campaign planning, audience engagement, media planning across paid, owned, and earned channels, and understanding the societal and business impact of social media. Elective units allow students to tailor their learning to specialist interests such as content creation, creative strategy, and cross-cultural management.Through a mix of theoretical study, real-world briefs, and industry-relevant projects, learners gain the confidence to create effective digital marketing plans, build compelling content, and manage integrated campaigns. Optional foundation and professional placement years further enhance practical experience, preparing graduates to step straight into roles such as digital marketing manager, social media strategist, content executive, and other key positions within the creative and business sectors."
+    ],
+
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
+
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
+
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
+
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
+
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Year 1",
+        items: [
+          { title: "Principles of Marketing", credits: "30 ", type: "Core" },
+          { title: "Social media: The Campaign", credits: "15 ", type: "Core" },
+          { title: "Elective: Brand Logo and Design", credits: "15 ", type: "Core" },
+          { title: "Navigating the Consumer Journey", credits: "30 ", type: "Core" },
+          { title: "Understanding Consumers and Audiences", credits: "15 ", type: "Core" },
+          { title: "Industry Brief in Branding &amp; Communications", credits: "15 ", type: "Core" },
+
+        ]
+      },
+      {
+        year: "Year 2",
+        items: [
+          { title: "Multiplatform Delivery", credits: "30", type: "Core" },
+          { title: "Principles of Content Creation", credits: "15 ", type: "Core" },
+          { title: "Elective: Creative Content Analogue and Digital Design", credits: "15 ", type: "Core" },
+          { title: "Storytelling and Narrative", credits: "15", type: "Core" },
+          { title: "Influence, Self-Branding, and Promotion", credits: "15", type: "Core" },
+          { title: "Creative Business Brief in Branding &amp; Communications", credits: "15", type: "Core" },
+
+
+        ]
+      },
+      {
+        year: "Year 3",
+        items: [
+          { title: "Strategic Planning", credits: "30", type: "Core" },
+          { title: "Creative Enterprise and Engagement", credits: "15", type: "Core" },
+          { title: "Ethics and Society", credits: "15", type: "Core" },
+          { title: "Degree Project in Branding and Communication", credits: "60", type: "Core" },
+
+        ]
+      }
+    ]
+  },
+
+  //The Integrated Foundation
+
+  "integrated-foundation": {
+    title: "Integrated Foundation",
+    slug: "integrated-foundation",
+
+    level: "ENTRY ROUTES",
+    duration: "1 Year",
+    studyMode: "Full Time",
+
+    intake: ["September", "February", "June"],
+    fees: "AED 29,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
+
+    heroImage: "/Law.webp",
+
+    overview: [
+      "The Integrated Foundation programme is a preparatory course designed for students who wish to develop the academic, creative, and practical skills necessary to progress onto an undergraduate degree. The course provides a broad introduction to key subject areas, alongside study skills, research techniques, and professional practice, enabling students to gain confidence and competence before starting their chosen degree. On completion, students are well-equipped to succeed in higher education, having developed a strong foundation in both subject knowledge and essential academic skills.."
+    ],
+
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
+
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
+
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
+
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
+
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+
+
+      {
+        year: "Year 3",
+        items: [
+          { title: "Exploring Creativity", credits: "30", type: "Core" },
+          { title: "Research and Inspiration", credits: "15", type: "Core" },
+          { title: "Creative Practical Skills 1", credits: "15", type: "Core" },
+          { title: "Creative Practice", credits: "30", type: "Core" },
+          { title: "Research and Writing", credits: "15", type: "Core" },
+          { title: "Creative Practical Skills 2", credits: "15", type: "Core" },
+
+        ]
+      }
+    ]
+  },
+
+  // The Integrated pre-masters...
+
+  "integrated-premasters": {
+    title: "Integrated PreMasters",
+    slug: "integrated-premasters",
+
+    level: "ENTRY ROUTES",
+    duration: "1 Year",
+    studyMode: "Full Time",
+
+    intake: ["September", "February", "June"],
+    fees: "AED 29,775 (VAT Inclusive)",
+    awardingBody: "University for the Creative Arts (UCA), UK",
+
+    heroImage: "/compe.jpg",
+
+    overview: [
+      " The Integrated Pre-Masters is a preparatory programme designed to support students who wish to progress to postgraduate study but require additional academic, research, or subject-specific preparation. The course develops advanced study skills, critical thinking, academic writing, and research methods while introducing students to key concepts relevant to their chosen master’s pathway. Through structured teaching, guided projects, and continuous assessment, students build confidence in independent learning, analytical thinking, and professional communication. On successful completion, students are equipped with the academic competence, subject knowledge, and study strategies required to progress smoothly onto a related Master’s degree, with the ability to conduct postgraduate-level research, engage critically with complex ideas, and perform effectively within a UK higher education environment."
+    ],
+    highlights: [
+      "UK Awarded Degree (UCA)",
+      "Industry-Led Design Projects",
+      "Strong Focus on Branding & Visual Identity",
+      "Digital, Print & Motion Design Skills",
+      "Professional Portfolio Development"
+    ],
+
+    sections: [
+      {
+        title: "Entry Criteria",
+        content: {
+          Pakistan: [
+            "Associate Degree from a recognised Pakistani university with 55% or GPA 2.5",
+            "Transcript showing successful completion of 2–3 years of a Bachelor's degree with 55% or GPA 2.5"
+          ],
+          "Foundation (Pakistan)": [
+            "HSSC / Intermediate with 60% or 3/5 (12 years of completed school study)"
+          ],
+
+          India: [
+            "Indian HSC / Standard XII with 60% or higher (CBSE, CISCE & all boards)",
+            "Completion of Year 1 of a Bachelor's degree from a recognised Indian university"
+          ],
+          "Foundation (India)": [
+            "Indian HSC / Standard XII with 50% or higher"
+          ],
+
+          Philippines: [
+            "Associate Degree from a recognised Philippine university with GPA 2.0/5.0 or GPA 3.0/4.0",
+            "Transcript showing completion of 2 years of a Bachelor's degree"
+          ],
+          "Foundation (Philippines)": [
+            "Philippine High School Diploma with 80% or higher"
+          ],
+
+          Note: [
+            "For more detailed undergraduate entry criteria, please click below.",
+            "View Full Undergraduate Requirements"
+          ]
+        }
+      },
+      {
+        title: "Fees",
+        content:
+          "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
+      },
+      {
+        title: "Transfer Option",
+        content:
+          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      }
+    ],
+
+    modules: [
+      {
+        year: "Level 6",
+        items: [
+          { title: "Creative Practice", credits: "30 Credits", type: "Core" },
+          { title: "Research and Critical Analysis", credits: "15 Credits", type: "Core" },
+          { title: "Practical Skillset I", credits: "15 Credits", type: "Core" },
+          { title: "Specialist Practice", credits: "30 Credits", type: "Core" },
+          { title: "Research and Critical Analysis II", credits: "15 Credits", type: "Core" },
+          { title: "Practical Skillset II", credits: "15 Credits", type: "Core" }
+        ]
+      },
+      {
+        year: "Level 7",
+        items: [
+          { title: "Strategic Innovation and Finance", credits: "30 Credits", type: "Core" },
+          {
+            title: "Business Analytics and Operations in the Creative Industries",
+            credits: "30 Credits",
+            type: "Core"
+          },
+          {
+            title: "Marketing Strategy and Creative Industries",
+            credits: "30 Credits",
+            type: "Core"
+          },
+          {
+            title: "Leadership, Decision-Making, and Culture",
+            credits: "30 Credits",
+            type: "Core"
+          },
+          { title: "Final Major Project", credits: "60 Credits", type: "Core" }
+        ]
+      }
+    ]
+
+  },
 
 
 }

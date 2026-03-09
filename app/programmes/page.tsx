@@ -114,13 +114,13 @@ export default function ProgrammesPage() {
 
           <div className="mt-10 flex justify-center gap-4">
             <Link
-              href="/apply"
+              href="#"
               className="px-10 py-4 bg-white text-[#940148] font-semibold rounded-md"
             >
               Apply Now
             </Link>
             <Link
-              href="/contact"
+              href="#"
               className="px-10 py-4 border border-white/40 rounded-md"
             >
               Talk to an Advisor

@@ -391,7 +391,7 @@ glow: "bg-[#f5c542]/35",
         <div className="grid grid-cols-12 md:grid-rows-2">
           {/* Hero */}
           <Link
-            href="/courses"
+            href="#"
           className="relative col-span-12 md:col-span-4 min-h-[320px] md:min-h-[380px] overflow-hidden group"
           >
             <Image

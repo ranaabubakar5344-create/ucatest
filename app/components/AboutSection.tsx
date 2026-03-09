@@ -109,7 +109,7 @@ export default function AboutSection() {
             {/* BUTTON */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link
-                href="/about"
+                href="/#"
                 className="group inline-flex items-center justify-center gap-3 rounded-2xl bg-[#940148] px-7 py-4 text-white font-semibold shadow-[0_16px_40px_rgba(148,1,72,0.35)] hover:brightness-110 transition"
               >
                 Discover More
@@ -117,7 +117,7 @@ export default function AboutSection() {
               </Link>
 
               <Link
-                href="/programmes"
+                href="/#"
                 className="inline-flex items-center justify-center gap-3 rounded-2xl bg-white px-7 py-4 font-semibold text-[#560045] ring-2 ring-[#560045]/25 hover:ring-[#940148]/35 hover:text-[#940148] transition"
               >
                 Explore Programmes

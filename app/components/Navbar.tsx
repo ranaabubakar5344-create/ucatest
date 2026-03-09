@@ -72,14 +72,14 @@ const MEGA_MENUS: Record<string, MegaSection> = {
       {
         title: "Programmes",
         lists: [
-          {
-            label: "POSTGRADUATE",
-            href: "/programmes/diplomas",
-            items: [
-              { label: "Master of Buisness Administration", href: "/programmes/mba" },
-              { label: "Msc Game Engineering", href: "/programmes/msc-game-engineering" },
-            ],
-          },
+          // {
+          //   label: "POSTGRADUATE",
+          //   href: "/programmes/diplomas",
+          //   items: [
+          //     { label: "Master of Buisness Administration", href: "/programmes/mba" },
+          //     { label: "Msc Game Engineering", href: "/programmes/msc-game-engineering" },
+          //   ],
+          // },
           {
             label: "ENTRY ROUTES",
             href: "/programmes/degrees",
@@ -215,8 +215,11 @@ const MEGA_MENUS: Record<string, MegaSection> = {
           items: [
             { label: "About FEUC", href: "/about-feuc" },
             { label: "UCA UK", href: "/about-uca-uk" },
-            { label: "Why Choose Us", href: "/about/why-us" },
-          ],
+            { label: "Why Choose UCA-UAE", href:"/whychooseus" },
+         
+            { label: "Policies & Regulations", href:"/policies" },
+         
+ ],
         },
       ],
     },

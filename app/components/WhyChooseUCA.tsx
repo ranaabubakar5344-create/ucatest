@@ -47,7 +47,7 @@ export default function WhyChooseUCA() {
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
-              href="/apply"
+              href="/#"
               className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-[#940148] px-6 py-4 font-semibold shadow-lg shadow-black/30 hover:brightness-110 transition"
             >
               Apply Now
@@ -55,7 +55,7 @@ export default function WhyChooseUCA() {
             </Link>
 
             <Link
-              href="/about"
+              href="/#"
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white/10 px-6 py-4 font-semibold ring-1 ring-white/20 hover:bg-white/15 transition"
             >
               Discover UCA

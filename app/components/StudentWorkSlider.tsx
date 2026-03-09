@@ -142,7 +142,7 @@ export default function StudentStoriesParsons() {
         name: "Omar Ali",
         program: "Creative Computing — Student Work",
         ctaLabel: "See Projects",
-        ctaHref: "/projects",
+        ctaHref: "/#",
         mainImage: "/aa.jpg",
         fit: "cover",
       },
