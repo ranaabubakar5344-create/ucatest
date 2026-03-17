@@ -1,69 +1,44 @@
 "use client";
 
 import { FileText } from "lucide-react";
+import type { Metadata } from "next";
 
 export default function PoliciesPage() {
+
+
   const policies = [
-    {
+
+   
+  
+     {
       id: 1,
-      title: "Student Code of Conduct",
-      desc: "The Student Code of Conduct defines the standards of academic integrity, professional behavior, and personal responsibility expected from all students at UCA. It ensures a respectful learning environment built on accountability, ethics, and mutual respect.",
-      pdf: "/policies/UCA-FEUC_DRESS CODE POLICY_v.2.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 2,
-      title: "Anti-Bullying Policy",
-      desc: "The Anti-Bullying Policy reinforces UCA’s commitment to maintaining a safe, inclusive, and respectful environment. It outlines procedures for reporting incidents of harassment, intimidation, or discrimination.",
-      pdf: "/policies/UCA-FEUC_CULTURAL CONSIDERATION POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 3,
-      title: "Lost, Found & Theft Policy",
-      desc: "The Lost, Found & Theft Policy provides clear procedures for reporting lost property, submitting found items, and addressing theft-related concerns to maintain campus safety.",
-      pdf: "/policies/UCA-FEUC_NO-SMOKING POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 4,
-      title: "Refund Policy",
-      desc: "The Refund Policy outlines the conditions under which tuition fees or other payments may be refunded. It explains eligibility criteria, timelines, and procedures for submitting refund requests.",
-      pdf: "/policies/UCA-FEUC_CULTURAL CONSIDERATION POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 5,
-      title: "Transportation Policy",
-      desc: "The Transportation Policy outlines the guidelines and responsibilities related to student transportation services, parking regulations, and campus access.",
-      pdf: "/policies/UCA-FEUC_TRANSPORTATION POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 6,
-      title: "Dress Code Policy",
-      desc: "The Dress Code Policy sets expectations for professional and respectful attire on campus and ensures students maintain an appearance that reflects academic seriousness.",
-      pdf: "/policies/UCA-FEUC_DRESS CODE POLICY_v.2.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 7,
-      title: "Language Policy",
-      desc: "The Language Policy defines the official language of instruction and communication within UCA to ensure clarity in academic delivery and campus interactions.",
-      pdf: "/policies/UCA-FEUC_CULTURAL CONSIDERATION POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 8,
-      title: "Mobile Phone & Device Usage Policy",
-      desc: "This policy outlines responsible use of mobile phones, laptops, tablets, and electronic devices during lectures and academic activities.",
-      pdf: "/policies/UCA-FEUC_CULTURAL CONSIDERATION POLICY_v.1.docx 2025-2026.docx.pdf",
-    },
-    {
-      id: 9,
       title: "Cultural Consideration Policy",
       desc: "The Cultural Consideration Policy promotes respect for cultural diversity and inclusion within the UCA community.",
       pdf: "/policies/UCA-FEUC_CULTURAL CONSIDERATION POLICY_v.1.docx 2025-2026.docx.pdf",
     },
+     {
+      id: 2,
+      title: "Transportation Policy",
+      desc: "The Transportation Policy outlines the guidelines and responsibilities related to student transportation services, parking regulations, and campus access.",
+      pdf: "/policies/UCA-FEUC_TRANSPORTATION POLICY_v.1.docx 2025-2026.docx.pdf",
+    },
+    
     {
-      id: 10,
+      id: 3,
+      title: "Dress Code Policy",
+      desc: "The Dress Code Policy sets expectations for professional and respectful attire on campus and ensures students maintain an appearance that reflects academic seriousness.",
+      pdf: "/policies/UCA-FEUC_DRESS CODE POLICY_v.2.docx 2025-2026.docx.pdf",
+    },
+ 
+ 
+  
+    {
+      id: 4,
       title: "No Smoking Policy",
       desc: "The No Smoking Policy establishes a smoke-free campus environment to protect the health and wellbeing of students, staff, and visitors.",
       pdf: "/policies/UCA-FEUC_NO-SMOKING POLICY_v.1.docx 2025-2026.docx.pdf",
     },
+    
   ];
 
   const scrollToPolicies = () => {
@@ -170,7 +145,7 @@ Read More
           </p>
 
           <p className="text-[#560145] font-medium mt-2 text-sm sm:text-base break-all">
-            enquiry@uca.ac.ae
+            Compliance@uca.feuc.ae
           </p>
         </div>
       </section>

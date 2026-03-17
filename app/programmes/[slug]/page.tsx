@@ -432,7 +432,7 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
                 </ul>
 
                 {/* CTA AFTER LAST (Foundation – Philippines) */}
-                {index === arr.length - 1 && (
+                {/* {index === arr.length - 1 && (
                   <div className="mt-10 pt-8 border-t border-gray-200">
                     <p className="text-gray-600 mb-4">
                       For more detailed undergraduate entry criteria, please click below.
@@ -468,7 +468,45 @@ export default async function ProgrammeDetailPage({ params }: PageProps) {
                       </svg>
                     </Link>
                   </div>
-                )}
+                )} */}
+
+                {sec.title === "Entry Criteria" && index === arr.length - 1 && (
+  <div className="mt-10 pt-8 border-t border-gray-200">
+    <p className="text-gray-600 mb-4">
+      For more detailed undergraduate entry criteria, please click below.
+    </p>
+
+    <Link
+      href="/entry-requirement"
+      className="
+        inline-flex items-center gap-3
+        px-6 py-3
+        rounded-full
+        bg-gradient-to-r from-[#940148] to-[#560145]
+        text-white font-bold
+        shadow-lg
+        hover:shadow-2xl
+        hover:scale-105
+        transition-all duration-300
+      "
+    >
+      View Full Entry Requirements
+      <svg
+        className="w-4 h-4"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
+    </Link>
+  </div>
+)}
               </div>
             )
           )}

@@ -51,11 +51,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+     
     ],
 
     modules: [
@@ -174,11 +170,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+     
     ],
 
     modules: [
@@ -302,11 +294,11 @@ export const PROGRAMME_DETAILS = {
           "AED 47,775 per year (VAT Inclusive). Scholarships and financial support may be available for eligible students."
       },
 
-      {
-        title: "Transfer Option",
-        content:
-          "Students may have the opportunity to transfer to UCA UK upon successful completion of Year 1, subject to academic performance and availability."
-      }
+      // {
+      //   title: "Transfer Option",
+      //   content:
+      //     "Students may have the opportunity to transfer to UCA UK upon successful completion of Year 1, subject to academic performance and availability."
+      // }
     ],
 
     modules: [
@@ -682,11 +674,11 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+      // {
+      //   title: "Transfer Option",
+      //   content:
+      //     "Students have the option to transfer to UCA UK upon successful completion of Year 1."
+      // }
     ],
 
     modules: [
@@ -794,11 +786,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+    
     ],
 
     modules: [
@@ -907,11 +895,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 47,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+   
     ],
 
     modules: [
@@ -1020,11 +1004,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+     
     ],
 
     modules: [
@@ -1111,11 +1091,7 @@ export const PROGRAMME_DETAILS = {
         content:
           "AED 29,775 per year (VAT Inclusive). Scholarships and grants may be available for eligible students."
       },
-      {
-        title: "Transfer Option",
-        content:
-          "Students have the option to transfer to UCA UK upon successful completion of Year 1."
-      }
+    
     ],
 
     modules: [

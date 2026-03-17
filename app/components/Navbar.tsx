@@ -105,9 +105,9 @@ const MEGA_MENUS: Record<string, MegaSection> = {
             label: "Life at Campus",
             href: "/experience/campus-life",
             items: [
-              { label: "Facilities", href: "/experience/facilities" },
-              { label: "Student Clubs", href: "/experience/clubs" },
-              { label: "Gallery & Exhibitions", href: "/experience/exhibitions" },
+              { label: "Academic Support", href: "/academicsupport" },
+              { label: "Student Well Being", href: "/studentwellbeing" },
+              { label: "Student Clubs", href: "/studentclubs" },
             ],
           },
         ],
@@ -117,11 +117,11 @@ const MEGA_MENUS: Record<string, MegaSection> = {
         lists: [
           {
             label: "What's On",
-            href: "/experience/events",
+            href: "#",
             items: [
-              { label: "Workshops", href: "/experience/events/workshops" },
-              { label: "Open Day", href: "/experience/events/open-day" },
-              { label: "Performances", href: "/experience/events/performances" },
+              { label: "Workshops", href: "#" },
+              { label: "Open Day", href: "#" },
+              { label: "Performances", href: "#" },
             ],
           },
         ],
@@ -165,39 +165,39 @@ const MEGA_MENUS: Record<string, MegaSection> = {
     ],
   },
 
-  INDUSTRY: {
-    label: "INDUSTRY",
-    href: "/industry",
+  "CONNECT & ENGAGE": {
+    label: "CONNECT & ENGAGE",
+    href: "/connect-engage",
     image: "/indus.webp",
     columns: [
       {
-        title: "Partners",
+        title: "Connect  & Engage",
         lists: [
           {
-            label: "Collaborations",
+            label: "Connect",
             href: "/industry/partnerships",
             items: [
-              { label: "Industry Projects", href: "/industry/projects" },
-              { label: "Internships", href: "/industry/internships" },
-              { label: "Mentorship", href: "/industry/mentorship" },
+              { label: "School Partnerships", href: "/schoolpatnership" },
+              { label: "Agent Partnerships", href: "/agentpartnerships" },
+              { label: "Community Engagements ", href: "/communityengagements" },
             ],
           },
         ],
       },
-      {
-        title: "Careers",
-        lists: [
-          {
-            label: "Opportunities",
-            href: "/industry/careers",
-            items: [
-              { label: "Career Services", href: "/industry/career-services" },
-              { label: "Alumni Network", href: "/alumni" },
-              { label: "Hire Talent", href: "/industry/hire" },
-            ],
-          },
-        ],
-      },
+      // {
+      //   title: "Careers",
+      //   lists: [
+      //     {
+      //       label: "Opportunities",
+      //       href: "/industry/careers",
+      //       items: [
+      //         { label: "Career Services", href: "/industry/career-services" },
+      //         { label: "Alumni Network", href: "/alumni" },
+      //         { label: "Hire Talent", href: "/industry/hire" },
+      //       ],
+      //     },
+      //   ],
+      // },
     ],
   },
 
@@ -240,12 +240,16 @@ const MEGA_MENUS: Record<string, MegaSection> = {
   ],
 },
 
+//connect and engage 
+
+
+
 };
 
 const navItems: NavItem[] = [
   {
     label: "PROGRAMMES",
-    href: "/programmes",
+    href: "#",
     display: (
       <>
         
@@ -253,12 +257,12 @@ const navItems: NavItem[] = [
       </>
     ),
   },
-  { label: "EXPERIENCE", href: "/experience" },
-  { label: "ADMISSIONS", href: "/admissions" },
-  { label: "INDUSTRY", href: "/industry" },
+  { label: "EXPERIENCE", href: "#" },
+  { label: "ADMISSIONS", href: "#" },
+  { label: "CONNECT & ENGAGE", href: "#" },
   {
     label: "ABOUT US",
-    href: "/about",
+    href: "#",
     display: (
       <>
         ABOUT US
