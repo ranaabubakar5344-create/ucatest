@@ -40,9 +40,9 @@ export default function SchoolPartnershipPage() {
   <div className="mx-auto max-w-[1400px] px-6 py-14 sm:px-10 md:px-16 lg:px-20 md:py-20 lg:py-24">
     {/* TOP INTRO */}
     <div className="max-w-5xl">
-    <h3 className="mb-4 text-[78px] font-medium uppercase tracking-[0.14em] text-[#940148] sm:text-[83px]">
-  School Partnership
-</h3>
+  <p className="mb-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#940148] sm:text-[13px]">
+School Partnerships
+            </p>
 
       <h2 className="text-[42px] font-semibold leading-[1.05] text-[#111111] sm:text-[54px] md:text-[68px] lg:text-[76px]">
         Step Into Your Creative Future with UCA
