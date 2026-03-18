@@ -45,7 +45,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
         lists: [
           {
             label: "UnderGraduate Programmes",
-            href: "/programmes",
+            href: "#",
             items: [
               { label: "Bsc(Hons) Computer Science", href: "/programmes/computer-science" },
               { label: "Bsc (Hons) Games Development", href: "/programmes/game-development" },
@@ -82,7 +82,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
           // },
           {
             label: "ENTRY ROUTES",
-            href: "/programmes/degrees",
+            href: "#",
             items: [
               { label: "Integrated Foundation Year", href: "/programmes/integrated-foundation" },
               { label: "Integrated Pre-Masters", href: "/programmes/integrated-premasters" },
@@ -95,7 +95,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
 
   EXPERIENCE: {
     label: "EXPERIENCE",
-    href: "/experience",
+    href: "#",
     image: "/student-life-1.webp",
     columns: [
       {
@@ -103,7 +103,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
         lists: [
           {
             label: "Life at Campus",
-            href: "/experience/campus-life",
+            href: "#",
             items: [
               { label: "Academic Support", href: "/academicsupport" },
               { label: "Student Well Being", href: "/studentwellbeing" },
@@ -131,7 +131,7 @@ const MEGA_MENUS: Record<string, MegaSection> = {
 
   ADMISSIONS: {
     label: "ADMISSIONS",
-    href: "/admissions",
+    href: "#",
     image: "/adm.webp",
     columns: [
       {
@@ -139,11 +139,11 @@ const MEGA_MENUS: Record<string, MegaSection> = {
         lists: [
           {
             label: "How to Apply",
-            href: "/admissions/how-to-apply",
+            href: "#",
             items: [
               { label: "Entry Requirements", href: "/entry-requirement" },
-              { label: "Dates & Deadlines", href: "/admissions/dates" },
-              { label: "Portfolio Guide", href: "/admissions/portfolio" },
+              { label: "Dates & Deadlines", href: "#" },
+              { label: "Portfolio Guide", href: "#" },
             ],
           },
         ],
@@ -155,9 +155,9 @@ const MEGA_MENUS: Record<string, MegaSection> = {
             label: "Finance",
             href: "/admissions/fees",
             items: [
-              { label: "Tuition Fees", href: "/admissions/fees" },
-              { label: "Scholarships", href: "/admissions/scholarships" },
-              { label: "Payment Plans", href: "/admissions/payment-plans" },
+              { label: "Tuition Fees", href: "#" },
+              { label: "Scholarships", href: "#" },
+              { label: "Payment Plans", href: "#" },
             ],
           },
         ],

@@ -178,6 +178,7 @@ export default function StudentWellbeingSupportPage() {
                   seek urgent medical or emergency support from local health
                   services.
                 </p>
+            
               </div>
             </div>
           </div>
