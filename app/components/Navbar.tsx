@@ -228,10 +228,10 @@ const MEGA_MENUS: Record<string, MegaSection> = {
       lists: [
         {
           label: "People",
-          href: "/about/team",
+          href: "#",
           items: [
-            { label: "CEO Message", href: "/about/team/leadership" },
-            { label: "Faculty Members", href: "/about/team/faculty" },
+            { label: "CEO Message", href: "#" },
+            { label: "Faculty Members", href: "#" },
             // { label: "Support Staff", href: "/about/team/staff" },
           ],
         },
@@ -436,7 +436,7 @@ export default function SiteHeader() {
               </button>
 
               <Link
-                href="/apply"
+                href="#"
                 className="ml-2 sm:ml-3 h-10 sm:h-11 px-4 sm:px-6 inline-flex items-center justify-center bg-[#940148] text-white font-semibold tracking-wide text-sm uppercase"
               >
                 Apply Now
