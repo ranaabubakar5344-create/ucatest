@@ -89,7 +89,7 @@ export default function AgentPartnersPage() {
                     key={item}
                     className="flex items-start gap-3 border-b border-black/10 pb-4"
                   >
-                    <span className="mt-2.5 h-2 w-2 rounded-full bg-[#940148]" />
+                  <span className="mt-2.5 block h-2 w-2 min-h-[8px] min-w-[8px] shrink-0 rounded-full bg-[#940148]" />
                     <p className="text-[15px] leading-7 text-[#1f2937] sm:text-[16px] md:text-[17px]">
                       {item}
                     </p>
